@@ -1,14 +1,18 @@
 package com.example.miguel.openhousemadrid;
 
-import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.maps.android.kml.KmlLayer;
+
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
@@ -38,9 +42,24 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
+      /*  // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(-34, 151);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));*/
+
+
+        //Zoom del mapa al centro de Madrid
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(40.4222453,-3.7016385), 12));
+
+        // Cargamos el archivo KML desde una ubicacion Local.(carpeta res/raw)
+        //Para que funcione hay que añadir las dependencias "compile 'com.google.maps.android:android-maps-utils:0.4+'" en build.gradle
+        try {
+            KmlLayer kmlLayer = new KmlLayer(mMap, R.raw.edificios, getApplicationContext());
+            kmlLayer.addLayerToMap();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        }
     }
 }
