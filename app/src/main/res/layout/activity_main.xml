@@ -32,7 +32,8 @@
             android:adjustViewBounds="false"
             android:layout_columnWeight="1"
             android:layout_column="0"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="openMap" />
 
         <ImageView
             android:layout_width="70dp"

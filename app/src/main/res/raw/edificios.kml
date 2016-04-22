@@ -1,0 +1,1409 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Edificios</name>
+		<Placemark>
+			<name>2 x 4</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/SMFpcyXQQP1rY9Vy06vVY6yehcqz-5Zk2jIehGLjWacskoOAaizey1kFoTOcyq4nF5WTkMw_BZ7OS5oroXuYjG1x9mTnO3MgAeu-Nq1pZEZCoyPA_WzloAApfF2xiM3O5ovOxQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!estudio-2-x-4/coni]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/SMFpcyXQQP1rY9Vy06vVY6yehcqz-5Zk2jIehGLjWacskoOAaizey1kFoTOcyq4nF5WTkMw_BZ7OS5oroXuYjG1x9mTnO3MgAeu-Nq1pZEZCoyPA_WzloAApfF2xiM3O5ovOxQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7097980999999995,40.4167342,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ACXT</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/rxWcU493dqlv5XpmERtLSNli3uX6VeUFMQ-EqlfqtvAnDFExLhqlr09AjoxiY6EGBznmsCVVb5NlCKB8Z-6w4_E1baIwELAqDE5xDyqgGS3GgBNpxx0GCe6WhB5JdWBMQQitgWs" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!acxt/c4t]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/rxWcU493dqlv5XpmERtLSNli3uX6VeUFMQ-EqlfqtvAnDFExLhqlr09AjoxiY6EGBznmsCVVb5NlCKB8Z-6w4_E1baIwELAqDE5xDyqgGS3GgBNpxx0GCe6WhB5JdWBMQQitgWs</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.71135,40.50414,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AGi Architects</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/EeQ7MCr2UuHgqvMw4riJQ_4FzDIQdFuALj-RP9pkhljl57Wvg-EBKzsM2h-8mSC5BTxi6FMHwuftQkBvErO0QPE4Mhcp7YTwBhToeT-ntdmEXIynaQZ76HDDB2usUtHbTX2geg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!agi-architects/c1kov]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/EeQ7MCr2UuHgqvMw4riJQ_4FzDIQdFuALj-RP9pkhljl57Wvg-EBKzsM2h-8mSC5BTxi6FMHwuftQkBvErO0QPE4Mhcp7YTwBhToeT-ntdmEXIynaQZ76HDDB2usUtHbTX2geg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.682812,40.4634923,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sede Aguirre Newman</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/uquEHFM9S_iAbjGmj7Jw_7t4kNSyWav2KqldpjafRE4wYN0V17dt82lbBbOdOsFJQKJ2dljonPWwYwBLXJ0qTAGe3Tj4kxO4gAqRDshXnvSeQQQwou2T8mgTbo2JAq6TC_gOQQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!sede-aguirre-newman/cg26]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/uquEHFM9S_iAbjGmj7Jw_7t4kNSyWav2KqldpjafRE4wYN0V17dt82lbBbOdOsFJQKJ2dljonPWwYwBLXJ0qTAGe3Tj4kxO4gAqRDshXnvSeQQQwou2T8mgTbo2JAq6TC_gOQQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6906887,40.4014066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fundación Alejandro de la Sota</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/WfZRJgYxctQbvrPRit2c9U-TQ6HPJV-jcM8tX-YmZsO0JMRdxjnH5PW2mLkVuc4MP-t1FJv8H53ZVzgIU2w5ML7YUqVIPf1xDnDbaXp-wzIEBHjxS_vkTNqMSMQ06JpuB2C38A" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!fundacion-alejandro-de-la-sota/cfgy]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/WfZRJgYxctQbvrPRit2c9U-TQ6HPJV-jcM8tX-YmZsO0JMRdxjnH5PW2mLkVuc4MP-t1FJv8H53ZVzgIU2w5ML7YUqVIPf1xDnDbaXp-wzIEBHjxS_vkTNqMSMQ06JpuB2C38A</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6922804000000005,40.4391666,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estudio Álvarez-Sala</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/h4MYIcf2cZYsKfPhIVK5kEpXLgVBfU71IFa135FN2-7u3MOFOxRHnbbrQ8txQ3fDq1TLJTH_ZWetpl7zM6nkzVhSQ9TNqQajGAzNfMj-5y8SBbni9cFNlbe74COz3gUi5q93BA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!estudio-lvarez-sala/cnub]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/h4MYIcf2cZYsKfPhIVK5kEpXLgVBfU71IFa135FN2-7u3MOFOxRHnbbrQ8txQ3fDq1TLJTH_ZWetpl7zM6nkzVhSQ9TNqQajGAzNfMj-5y8SBbni9cFNlbe74COz3gUi5q93BA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6857049,40.4233843,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Arturo Berned</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/2oyUCokU0asfOBLp7hvfO1j6BK-gWuxvHsZCHbfSzOSbqd3rGe2mU-gtbTNuseqmKwg3W4lijrxTkskxNVmW7u2qOIDiWMYHFzvI9g5ey1gbzSwskhMAz8C-_85kWooiWS5fOQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!arturo-berned/c19x6]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/2oyUCokU0asfOBLp7hvfO1j6BK-gWuxvHsZCHbfSzOSbqd3rGe2mU-gtbTNuseqmKwg3W4lijrxTkskxNVmW7u2qOIDiWMYHFzvI9g5ey1gbzSwskhMAz8C-_85kWooiWS5fOQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6205423,40.4509936,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oficinas de Arup</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/tJHfBUhAF84WZDlJ0uobNWHbdfakceDGAVBZ77nKoRfyjjX4uarY5zYQYzqZ3wU8pnLJIZJisZSB9bEJN2BoG6VwkQ0O6D8vLT8HQEyewOKttSdZpz9LJH6y8TbMKHKJKyGz8w" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!oficinas-de-arup/c1zay]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/tJHfBUhAF84WZDlJ0uobNWHbdfakceDGAVBZ77nKoRfyjjX4uarY5zYQYzqZ3wU8pnLJIZJisZSB9bEJN2BoG6VwkQ0O6D8vLT8HQEyewOKttSdZpz9LJH6y8TbMKHKJKyGz8w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6908827000000004,40.4194899,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ayala Arquitectos</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/xIVJFyaF5NOtDnMcI16T5vTiTunkM12EO7WOzFxbaGmQiPc0BaqlZIG9gzJy2D9D40p-GKXW-40_px62z4kSg7SDuoUJFJFvW9Rn6cr9AAFsU4vARqMfkr3w03G8TqJWvTb7sw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!ayala-arquitectos/c1wuw]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/xIVJFyaF5NOtDnMcI16T5vTiTunkM12EO7WOzFxbaGmQiPc0BaqlZIG9gzJy2D9D40p-GKXW-40_px62z4kSg7SDuoUJFJFvW9Rn6cr9AAFsU4vARqMfkr3w03G8TqJWvTb7sw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7066455,40.4388953,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Banco de España</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/LY08X4g0bX6uF2wMTfyWMSnjvuCBtnJa6lhif_t2kDH-aW9a6OBf_vg7bocuK_MI7tFMIwdpctC47T3O2HBeNL41bglBrM1BRsYqLWon7_MCUuoyGxVkwJLTwYh6lr5TszqFUg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!banco-de-espana/camc]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/LY08X4g0bX6uF2wMTfyWMSnjvuCBtnJa6lhif_t2kDH-aW9a6OBf_vg7bocuK_MI7tFMIwdpctC47T3O2HBeNL41bglBrM1BRsYqLWon7_MCUuoyGxVkwJLTwYh6lr5TszqFUg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6947356,40.4188361,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Burgos &amp; Garrido</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/PvrU0ACA8TsEJSLvzAv0SCGI7cRepHIXsVl6fgynwg-Od2XHpVVdZyij61CoTNbrFdcP5wynO4HdBVbhh6E7gxHjhh-lc9TpLTKJYyB6_1DGsZG1iZp8f_iP9Qfp9neFjuPrbw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!burgos-y-garrido/c1r3p]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/PvrU0ACA8TsEJSLvzAv0SCGI7cRepHIXsVl6fgynwg-Od2XHpVVdZyij61CoTNbrFdcP5wynO4HdBVbhh6E7gxHjhh-lc9TpLTKJYyB6_1DGsZG1iZp8f_iP9Qfp9neFjuPrbw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.730592,40.4284642,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cámara de Comercio - Palacio de Santoña</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/4hk7ZPx2RZiXOHpSLJFfRGly1I_fti0jmegLEC_P3vpstSsr8guKcnhCNSlZxE2lOEebhAvq2PO5SDadRYacI0pG0dcqiSi1PDwQoHIncte6XPqMrKLTP8WxwLc8c7kepp0DWw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!camara-de-comercio-palacio-santona/c2se]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/4hk7ZPx2RZiXOHpSLJFfRGly1I_fti0jmegLEC_P3vpstSsr8guKcnhCNSlZxE2lOEebhAvq2PO5SDadRYacI0pG0dcqiSi1PDwQoHIncte6XPqMrKLTP8WxwLc8c7kepp0DWw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7004975000000004,40.4140013,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cano y Escario Arquitectura</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/hbRXfTqpVE8Qdy4V953F6DWRqfee30prJB972rZmDpgyjAFdM0yx3yXUEnAXprETYL9Rim6z-XgJ6ZXVm1-QiP14Rwk9jQY56FofN9Gj0FWYXv1nJ3enlRM5NpJnwR6jwy0V1w" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!cano-y-escario-arquitectura/c211q]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/hbRXfTqpVE8Qdy4V953F6DWRqfee30prJB972rZmDpgyjAFdM0yx3yXUEnAXprETYL9Rim6z-XgJ6ZXVm1-QiP14Rwk9jQY56FofN9Gj0FWYXv1nJ3enlRM5NpJnwR6jwy0V1w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6591827,40.456438,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Carlos Arroyo</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/BA6Ejtab_zv1qf0qvIdhMMvLF8x6fO1BzKMhqVpf9i715qhwUdWSB-OZujuYQf8cL0LHpi-t4jwB8Qp3YTs0j-XyGSyorYgBsw1hvMEIjUW5x4QpckXGgs5suD4hdwBiF0X72A" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!carlos-arroyo/cens]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/BA6Ejtab_zv1qf0qvIdhMMvLF8x6fO1BzKMhqVpf9i715qhwUdWSB-OZujuYQf8cL0LHpi-t4jwB8Qp3YTs0j-XyGSyorYgBsw1hvMEIjUW5x4QpckXGgs5suD4hdwBiF0X72A</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7012258000000005,40.4154748,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Casa América - Palacio de Linares</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/W1lBJsaQxF6a305tKOuYLJpQPEIrUWAB3NERuG8qA_m6OlKtTabPqvv2bYY2PLPhJdmJIzVhFUNa1s6diyCVmnhS58NlKn_xeTJrP2u7B0T21R06ZR8EFz0oAq2iq7RV53UK5g" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!casa-america---palacio-de-linares/c23rl]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/W1lBJsaQxF6a305tKOuYLJpQPEIrUWAB3NERuG8qA_m6OlKtTabPqvv2bYY2PLPhJdmJIzVhFUNa1s6diyCVmnhS58NlKn_xeTJrP2u7B0T21R06ZR8EFz0oAq2iq7RV53UK5g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6922065000000006,40.4198063,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Casa Árabe - Antiguas Escuelas Aguirre</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/GTrhiHS3aKVYTksAvHNopUWDrsPYQCwaNuuEvHwRJgyM-n82bwZu1E6CXH6CZEL5pes9Jyelm8nm0Y2wY5IjL54y8-NROxs_LE1pYunmK9bAc6Fj_6Cmj05cg8xYJGsyV1DkDA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!casa-arabe-antiguas-escuelas-aguirre/c1566]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/GTrhiHS3aKVYTksAvHNopUWDrsPYQCwaNuuEvHwRJgyM-n82bwZu1E6CXH6CZEL5pes9Jyelm8nm0Y2wY5IjL54y8-NROxs_LE1pYunmK9bAc6Fj_6Cmj05cg8xYJGsyV1DkDA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6822195,40.421689,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Casa de las Flores</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/xNll93harnepY0PH8vCnvCybfMyHkfj8QSiSc5vTY8e9pArWH5QliHnilP96oF7s71fYFijMCAsdPlsy5EINjt_CbTYR2_Amn1B6KfhX1fNz2iVot_MNnEFdXRgfG16dzabrUQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!casa-de-las-flores/c19oi]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/xNll93harnepY0PH8vCnvCybfMyHkfj8QSiSc5vTY8e9pArWH5QliHnilP96oF7s71fYFijMCAsdPlsy5EINjt_CbTYR2_Amn1B6KfhX1fNz2iVot_MNnEFdXRgfG16dzabrUQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7166963,40.4325354,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Casa Encendida</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/_a1YuKHHT2cp68RYGuq-FPhwNLv-tlXmFRCC4dYd6UBIAOEeFyoPQzC1nZlO3NqE3TvjWMNjJAPTFj7FGM-WwIVxjUpUVKISQOr1Lo4wZ1kpFV3-rfNQE-Bscazh3PO-e7_Pmw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!la-casa-encendida/c1een]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/_a1YuKHHT2cp68RYGuq-FPhwNLv-tlXmFRCC4dYd6UBIAOEeFyoPQzC1nZlO3NqE3TvjWMNjJAPTFj7FGM-WwIVxjUpUVKISQOr1Lo4wZ1kpFV3-rfNQE-Bscazh3PO-e7_Pmw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6998895000000003,40.4060925,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centro Centro Cibeles de Cultura y Ciudadanía</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/cRf4phpVrWQJ8tA689p5ewaSG-syXgu63dSvjBVGFzF3Ws1lW4p28D2tNdkxs3atzsl2wbY11TSfCg6Xfw6nuSOsRXu7RdYVGjPN2XFXLHHgGYPn_4ybGYtV5At7-cqWlxh40Q" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!centro-centro-cibeles-de-cultura-y-ciuda/c1lik]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/cRf4phpVrWQJ8tA689p5ewaSG-syXgu63dSvjBVGFzF3Ws1lW4p28D2tNdkxs3atzsl2wbY11TSfCg6Xfw6nuSOsRXu7RdYVGjPN2XFXLHHgGYPn_4ybGYtV5At7-cqWlxh40Q</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6927345000000003,40.4194733,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Colegio Mayor César Carlos</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/tGdZfnPqcbOK17vh0nIAxqX1bJbhoiC62dDXBqWUijLMV75WcQKPeoPazW8icYToy1QVQBfjkJQw2X_tLsyso4PGqLkWW5qavaEf1LnoQVBTB4HiZH8AsqgCjVsfukvavcsFwQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!colegio-mayor-cesar-carlos/c1zv9]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/tGdZfnPqcbOK17vh0nIAxqX1bJbhoiC62dDXBqWUijLMV75WcQKPeoPazW8icYToy1QVQBfjkJQw2X_tLsyso4PGqLkWW5qavaEf1LnoQVBTB4HiZH8AsqgCjVsfukvavcsFwQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7198436,40.4479626,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centro de Estudios Hidrográficos</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/-tpSce0h8KFu5-8rWRvlSGaAQg1T0ta942ZBYBNoprRkpetBSdECwBgVCEagDdq8dU-UFq47hgCjL81qK0gZS7efneseEMw3v5Pn02820eyktWwW0NGe_SJsOPMcc7iKyvlF-Q" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!centro-de-estudios-hidrograficos-cedex/cmvf]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/-tpSce0h8KFu5-8rWRvlSGaAQg1T0ta942ZBYBNoprRkpetBSdECwBgVCEagDdq8dU-UFq47hgCjL81qK0gZS7efneseEMw3v5Pn02820eyktWwW0NGe_SJsOPMcc7iKyvlF-Q</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7222759000000005,40.4122252,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estudio Chus Burés</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/SfqVlBDtWodpHT4R_f7BIaOuGjmh_ZoOCImSJYNVRiLrN7hyq8o2-VsxsPSPN9Lk_lVFvewMpwdXA5xyad_cWZa7XTQomPMeme3JIvMlkDWRJ9ubtnQJwVQGidatNZ5_Q9xIKQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!estudio-chus-bures/c4fe]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/SfqVlBDtWodpHT4R_f7BIaOuGjmh_ZoOCImSJYNVRiLrN7hyq8o2-VsxsPSPN9Lk_lVFvewMpwdXA5xyad_cWZa7XTQomPMeme3JIvMlkDWRJ9ubtnQJwVQGidatNZ5_Q9xIKQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6868842,40.4298355,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ciszak Dalmas Design Studio</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/h4QuD-0UIH1rttz1Xg2ueLRWAd9KD2vwuVCtxr6BUdbSVuCZRyHnwIJ0NFx3j3cVzmYUdG2ifNKn7gC8VnXLJ0ASSs3k7aH7cRwT5Mk3qh7logPd7FO42BwoIQlSXMeC3048QQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!ciszak-dalmas-design-studio/coce]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/h4QuD-0UIH1rttz1Xg2ueLRWAd9KD2vwuVCtxr6BUdbSVuCZRyHnwIJ0NFx3j3cVzmYUdG2ifNKn7gC8VnXLJ0ASSs3k7aH7cRwT5Mk3qh7logPd7FO42BwoIQlSXMeC3048QQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6972715999999997,40.4137848,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hotel Claridge Madrid</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/LzW7IaKOt3WxqCd6FWTscPOKgwMp3MMll-VV2TVEySjvkgcRirQfri8pQkJzI_XsUcHcwmcDSLiiy-x6obKR-46rWvSJgb3W0Oi7pb17LPC8IjjthoEZABU1YH41oSnBMqvLJA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!hotel-claridge-madrid/cquw]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/LzW7IaKOt3WxqCd6FWTscPOKgwMp3MMll-VV2TVEySjvkgcRirQfri8pQkJzI_XsUcHcwmcDSLiiy-x6obKR-46rWvSJgb3W0Oi7pb17LPC8IjjthoEZABU1YH41oSnBMqvLJA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6698347000000004,40.4068077,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Club A.R.G.O.</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/CJKZnUQKWmUFeQrwW6v2HK5wBdQDZnhEEnv3vQPUuQMf3rl7Lo-fTLgk6odhyyazTVu7GPh8fEt9K4noBGVsgJBcUGxNue8anLKJb2MFBDBbkQ4OZA_KHSXnTYMjSJqffsOWqw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!club-argo/copw]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/CJKZnUQKWmUFeQrwW6v2HK5wBdQDZnhEEnv3vQPUuQMf3rl7Lo-fTLgk6odhyyazTVu7GPh8fEt9K4noBGVsgJBcUGxNue8anLKJb2MFBDBbkQ4OZA_KHSXnTYMjSJqffsOWqw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7004487000000004,40.414385,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sede Coca-Cola Madrid</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/VMInX7YQLVWIozYR2rRbmfXEaesF0J2d-FyaW9ukxHtV7YnYhhUJ_pSoHMHdr6ta-7kIzP4vEWkXd_ozfs8nqKmdumR2W9FvQWpzaN9NfT4GdxQLQTTqhRUQWyBhohYd-eL_bg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!sede-coca-cola/cm99]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/VMInX7YQLVWIozYR2rRbmfXEaesF0J2d-FyaW9ukxHtV7YnYhhUJ_pSoHMHdr6ta-7kIzP4vEWkXd_ozfs8nqKmdumR2W9FvQWpzaN9NfT4GdxQLQTTqhRUQWyBhohYd-eL_bg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6243294,40.46513740000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Comunica + A</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/h3XBRrfhO61fWPbnzA0HMGMdrDRdapX4joHduO78TCXGnmBTY8LtoYoXJ3UvUn0PCszJXkrIMnABOXmWv5Mb-bYzU5y-d_lZDDSH5U5_B3Tsyn1chhkL1e00HrdJgWKQwZv0jw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!comunica-mas-a/c23sy]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/h3XBRrfhO61fWPbnzA0HMGMdrDRdapX4joHduO78TCXGnmBTY8LtoYoXJ3UvUn0PCszJXkrIMnABOXmWv5Mb-bYzU5y-d_lZDDSH5U5_B3Tsyn1chhkL1e00HrdJgWKQwZv0jw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.668859,40.4497404,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centro Cultural Conde Duque</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/8S1ofTaKG4DzAYU3sl-gDONttSNE0sPnApsBJH30TZS_0fhuBt-3BZ-peMmjMaucttfdKHlghmK-oJDA_lUiSvjf_KTJIYaH76R0tIgr7_GYHbAzDEcxiamSSw_PKv5-fC8hjw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!centro-cultural-conde-duque/c9ha]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/8S1ofTaKG4DzAYU3sl-gDONttSNE0sPnApsBJH30TZS_0fhuBt-3BZ-peMmjMaucttfdKHlghmK-oJDA_lUiSvjf_KTJIYaH76R0tIgr7_GYHbAzDEcxiamSSw_PKv5-fC8hjw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7107473000000004,40.4270331,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Consejería de Medio Ambiente y Ordenación Territorial de Madrid</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/4GCEIwey-9GHTB0li_TT8WxjLMpd1-EQnQ0nLdz1WkBGCYlArqyYq_TwHvOoAqUuo6yMGRV3fP5Xba-BvgokHpZvYFZ3F8O7ju6a5wrGa9vInvd3ItqyJfGGSMQzRgelix87pg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!consejeria-medio-ambiente-madrid/cito]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/4GCEIwey-9GHTB0li_TT8WxjLMpd1-EQnQ0nLdz1WkBGCYlArqyYq_TwHvOoAqUuo6yMGRV3fP5Xba-BvgokHpZvYFZ3F8O7ju6a5wrGa9vInvd3ItqyJfGGSMQzRgelix87pg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6994713,40.4175813,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sede Cuatrecasas</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/hiTcnZr05oURvD8xa2GL9GY1uyWnQh-kKmcYjC5-seXyAUFk5bgdyFlxwc4o9NolngMakLbuBqBLUx4bWHpyoHnPlsQoPaFdU8HN3SmhEiKITcJnIE0eQZbrw78KY5t8N9JEkQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!sede-cuatrecasas/c1oyf]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/hiTcnZr05oURvD8xa2GL9GY1uyWnQh-kKmcYjC5-seXyAUFk5bgdyFlxwc4o9NolngMakLbuBqBLUx4bWHpyoHnPlsQoPaFdU8HN3SmhEiKITcJnIE0eQZbrw78KY5t8N9JEkQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6937299999999995,40.4298,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>deARQ Eloy Díez Arquitectos</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/L2-OGLApeJ4P6VqBczTZKpRoCzqN4_alB9cy9Fg0Aqi_kuVakhanzceuBQ1P7jUQF4mWRroci2ynQz_sgIhU9D0tolbPlA_4Fzywl1ic8vVxVVWy6vCI06lNYNDNjtVwxVRKDA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!dearq-eloy-diez-arquitectos/c10g5]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/L2-OGLApeJ4P6VqBczTZKpRoCzqN4_alB9cy9Fg0Aqi_kuVakhanzceuBQ1P7jUQF4mWRroci2ynQz_sgIhU9D0tolbPlA_4Fzywl1ic8vVxVVWy6vCI06lNYNDNjtVwxVRKDA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6846965,40.4292358,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Palacio Duarte Pinto Coelho</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/nYCcpaX_dAONjC-DQDQsmlbAKq9Kp-P4_xYa6IwLP2wR-J1ot1Df-HlITDRcoRoEgIhrbpWrfNFHw4WlfcDztDQGTNnQadWddDtn_kkn0PVZ0y64Kc-cq9JRPV8pVFS5-hU3pQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!palacio-duarte-pinto-coelho/cj34]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/nYCcpaX_dAONjC-DQDQsmlbAKq9Kp-P4_xYa6IwLP2wR-J1ot1Df-HlITDRcoRoEgIhrbpWrfNFHw4WlfcDztDQGTNnQadWddDtn_kkn0PVZ0y64Kc-cq9JRPV8pVFS5-hU3pQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7123586000000004,40.4116005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecópolis Plaza</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/xHV8LJiJTKS4CQRn62f48HuAm0pkD8BZeoo9YMkfxCCMHx-p3sTJjCeIN0QQkIEZBg51v2dmIjy6iTkVNGYvbAzGbHUva6TRuqsSfEZo6Je4W6hRYXGjrkpuhVy6rkhGBq1U5w" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!ecopolis-plaza-guarderia-espacio-publico/cool]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/xHV8LJiJTKS4CQRn62f48HuAm0pkD8BZeoo9YMkfxCCMHx-p3sTJjCeIN0QQkIEZBg51v2dmIjy6iTkVNGYvbAzGbHUva6TRuqsSfEZo6Je4W6hRYXGjrkpuhVy6rkhGBq1U5w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.54711,40.35542,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Instituto Eduardo Torroja IETcc</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/L7spqUps4VjeaiAHiAjQLmtObqzykVgawi3ZCG9VQTxYAV5HpYOUL-5DQSgS3yigHno8lrjbCDBe9oWm5ZgSjllMn_yq1GqfLrupoVof2AaOpYeQBkI6_b6GFIpSozz_kWWnMA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!instituto-eduardo-torroja/c1h4a]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/L7spqUps4VjeaiAHiAjQLmtObqzykVgawi3ZCG9VQTxYAV5HpYOUL-5DQSgS3yigHno8lrjbCDBe9oWm5ZgSjllMn_yq1GqfLrupoVof2AaOpYeQBkI6_b6GFIpSozz_kWWnMA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6717507999999994,40.4723353,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Parque de El Capricho</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Gvaeq63g3jAS_W6KBHzFpwSjAzmq2ESZBEvbSEhp6FaJW3ddYBcJ7lWllFRK0cdl11YEj8fuQdRGtSm0RkgSKKS6ImIHMHIZ4HTGPHvlJcH0QgJRoAPVQqjDGlLYsZibv84myw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!parque-de-el-capricho/c1ytu]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/Gvaeq63g3jAS_W6KBHzFpwSjAzmq2ESZBEvbSEhp6FaJW3ddYBcJ7lWllFRK0cdl11YEj8fuQdRGtSm0RkgSKKS6ImIHMHIZ4HTGPHvlJcH0QgJRoAPVQqjDGlLYsZibv84myw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6002276,40.45439580000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EMA Espinosa de los Monteros y Arquitectos Asociados</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/SMFG35V5K2VUgHnY13HUHl7u8FDJxzgVUKDYyPaYRMUgMuzzC2FoWbIaTwXHTHKaR8nkMScOTxo1oOiVt7SMWCNH53DV6_TlIUKhqZnGJA5rYnTz6N3xkW9kFynBINOyFvDsFg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!ema-espinosa-de-los-monteros-arquitectos/c1lmb]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/SMFG35V5K2VUgHnY13HUHl7u8FDJxzgVUKDYyPaYRMUgMuzzC2FoWbIaTwXHTHKaR8nkMScOTxo1oOiVt7SMWCNH53DV6_TlIUKhqZnGJA5rYnTz6N3xkW9kFynBINOyFvDsFg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6910877000000006,40.4334069,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Espegel-Fisac Arquitectos</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Tteble2xqjilzsDVBDGMYy3KJmfi7GAT8iPtONnJBqUyI3O_j3czorSt1Qv7pAgLsVrBXqwVs4JGSo9eYNdyD-H1c_Gpeukgxci4jDnMN1shTSv9VPbXlW57T9WJ17I0JduUPA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!espegel-fisac-arquitectos/ce7m]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/Tteble2xqjilzsDVBDGMYy3KJmfi7GAT8iPtONnJBqUyI3O_j3czorSt1Qv7pAgLsVrBXqwVs4JGSo9eYNdyD-H1c_Gpeukgxci4jDnMN1shTSv9VPbXlW57T9WJ17I0JduUPA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7167116000000004,40.4322889,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estación de Chamberí</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/IqiIpy3B5oBfeh7m9c-Cix26eoCir4alFo-czWUxt6LlC_kmB0Wr8OfbYKs1qW4ktvtnEPw1eBHD5W-ZrdHjS-bM-w4qtgSLhlCM7dPJiQyoz9-7D8t2njrWgW6Hbgmf2gcW7A" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!estacion-de-chamberi/cf0t]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/IqiIpy3B5oBfeh7m9c-Cix26eoCir4alFo-czWUxt6LlC_kmB0Wr8OfbYKs1qW4ktvtnEPw1eBHD5W-ZrdHjS-bM-w4qtgSLhlCM7dPJiQyoz9-7D8t2njrWgW6Hbgmf2gcW7A</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6977263,40.4322708,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oficinas Fernández Molina</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/7AALY9oKPmP1EckGy2FYoDutEKCL54vp53_0Lvih7My9E3zC9XnIko54gvAbw4_odh-5s_MhpOxen2LheA44_kuqLeFZfGayyYmT7yiMa7qOZjbX2cxvRxOlLL5QrLlcl2S0TA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!oficinas-fernandez-molina-obras-y-servic/c1y71]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/7AALY9oKPmP1EckGy2FYoDutEKCL54vp53_0Lvih7My9E3zC9XnIko54gvAbw4_odh-5s_MhpOxen2LheA44_kuqLeFZfGayyYmT7yiMa7qOZjbX2cxvRxOlLL5QrLlcl2S0TA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6805926000000007,40.4638165,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fundación Fernando de Castro</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Sfn7baR6mShaF-mKw05j71u4JcXGwcDmFvKA3bN80hGmYhAWdx-FI5GcoOaycVjTXkU1gWPMRSco_XukcAWDBGqwRhY74WiBHhem_kviAblO4nRwR1unEKmFcuw1yHeILMAm3w" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!fundacion-fernando-de-castro/c1jcb]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/Sfn7baR6mShaF-mKw05j71u4JcXGwcDmFvKA3bN80hGmYhAWdx-FI5GcoOaycVjTXkU1gWPMRSco_XukcAWDBGqwRhY74WiBHhem_kviAblO4nRwR1unEKmFcuw1yHeILMAm3w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6985604,40.4259572,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fundación Fernando Higueras</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/YXsEwTCdznv8l3KSZJI0KmZnq7nRPeUgS0_QqN3HuhcX0BYdmtpuEIWmAWM4MgHwIfuv2dV-49fWbI-gCcjMzY3kpsNMIfdLWDeWqV1_E9zWgg_9QfjP8qNJIW3W_q7YB53KcwbYj7vaVDQISfWYtGyqRDZtoqBpLilha5nGeF1bXgRydRerQe9U0w" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!fundacion-fernando-higueras/c74r]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/YXsEwTCdznv8l3KSZJI0KmZnq7nRPeUgS0_QqN3HuhcX0BYdmtpuEIWmAWM4MgHwIfuv2dV-49fWbI-gCcjMzY3kpsNMIfdLWDeWqV1_E9zWgg_9QfjP8qNJIW3W_q7YB53KcwbYj7vaVDQISfWYtGyqRDZtoqBpLilha5nGeF1bXgRydRerQe9U0w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.671675,40.4643219,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fundación Francisco Giner de los Ríos</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/9G43-JK4kFY0ZswuwOkCVrOuuSLg3fdNS05twgKGNs70-rtFvSU_oXf8cTzoiQ52u5k398HUTZ-KWQC7iOU-zwvohp807b4Xfu0S7qu2DTP9fYln0uOMRypvlZGCgxoSLuOReQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!fundacion-francisco-giner-de-los-rios/c1wpk]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/9G43-JK4kFY0ZswuwOkCVrOuuSLg3fdNS05twgKGNs70-rtFvSU_oXf8cTzoiQ52u5k398HUTZ-KWQC7iOU-zwvohp807b4Xfu0S7qu2DTP9fYln0uOMRypvlZGCgxoSLuOReQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6967760999999997,40.4349054,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GARCIAGERMAN Arquitectos</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/z2dwUt-9PluUExDC1mH5w7QrW7zjKvP-t2KUFdQW-zcBkNELIz1HCIT3I86qRbVhsOQASRb0kpRUPXpTX4bk5JiB_LJTLHDG5tzB4fOVKB-RtXNL0V6tSgxKIfhhIzm65VJC3Q" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!garciagerman-arquitectos/ciep]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/z2dwUt-9PluUExDC1mH5w7QrW7zjKvP-t2KUFdQW-zcBkNELIz1HCIT3I86qRbVhsOQASRb0kpRUPXpTX4bk5JiB_LJTLHDG5tzB4fOVKB-RtXNL0V6tSgxKIfhhIzm65VJC3Q</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6798757000000006,40.448735,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Complejo Garrigues</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Kqs-7jIAfsYsf6hQRZXbu2mfpRgmQ2zE2GzZgsqaiW52V1O9ffTBhYtaFSnyfyKZQOlIFyRtKwLN7f6-RcRYP3scZyH6a7Z8syGMXjLQrfJboXOFGiU14jsklbfvGq0JijGfhA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!sede-garrigues/c1b65]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/Kqs-7jIAfsYsf6hQRZXbu2mfpRgmQ2zE2GzZgsqaiW52V1O9ffTBhYtaFSnyfyKZQOlIFyRtKwLN7f6-RcRYP3scZyH6a7Z8syGMXjLQrfJboXOFGiU14jsklbfvGq0JijGfhA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6888685,40.426646700000006,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GMP Génova 27</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/woS_obw115MQyTzjdX6kJjmiWRarfYxpEABG1Atb0a94lko4tDuJlxQxw7YUKshvPUi9WphfVaAy0_zEhtZc6NkrQjRrXxNtW6x0XtZyGRH2476JeIpiFbWARjutKXUpDAjH8Q" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!gmp-gnova-27/c1xcz]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/woS_obw115MQyTzjdX6kJjmiWRarfYxpEABG1Atb0a94lko4tDuJlxQxw7YUKshvPUi9WphfVaAy0_zEhtZc6NkrQjRrXxNtW6x0XtZyGRH2476JeIpiFbWARjutKXUpDAjH8Q</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6920336,40.425997900000006,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oficinas GMP</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/8VgKH9HBMOc2JRyyVV9iTOpswPE10hb8nDKBz4YLIL9Tz9v7YbgGekZeHdi9ArfxGHLGA1aUc5VrqbSYBqrYn0qUqchfNJtLyw5PGlDoRW2u3ItWy5xJkhzkTSnFKc7u-PXepw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!gmp-luchana-23/cx6x]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/8VgKH9HBMOc2JRyyVV9iTOpswPE10hb8nDKBz4YLIL9Tz9v7YbgGekZeHdi9ArfxGHLGA1aUc5VrqbSYBqrYn0qUqchfNJtLyw5PGlDoRW2u3ItWy5xJkhzkTSnFKc7u-PXepw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7001149999999994,40.430575,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hotel Gran Meliá Fénix</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/HmPeER9W_CQaX1A3KMPYHrbC7cAfHO-e3bYwOAnsGA0c9CSZGCGB0nsOUVHSCviabLAB4DhnD8bVHFtM2ABy5BQRqZR_3GrGsecIdhUqg_Q6UAoVbGq8ALiiZ-iaB-1KuVB5Cw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!hotel-gran-melia-fenix/c10no]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/HmPeER9W_CQaX1A3KMPYHrbC7cAfHO-e3bYwOAnsGA0c9CSZGCGB0nsOUVHSCviabLAB4DhnD8bVHFtM2ABy5BQRqZR_3GrGsecIdhUqg_Q6UAoVbGq8ALiiZ-iaB-1KuVB5Cw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6892856,40.426504,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estudio Herreros</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/T2v6r2W4VMQIOlLeiSeKeywLf3ycZG2fi5ys58W1CuzE8Hu7fvlU2svFM-br8ult3flYipoAPwjbJo3VlbdiRObTMPfcEV-ijFpCOl673glJlcmNi5_FiMVP5gNgRXwdkRg_bSaO6qQp5ycDFnPYtG-2EWdZVxXHQzQZ20fDAwUuRg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!estudio-herreros/c1o6v]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/T2v6r2W4VMQIOlLeiSeKeywLf3ycZG2fi5ys58W1CuzE8Hu7fvlU2svFM-br8ult3flYipoAPwjbJo3VlbdiRObTMPfcEV-ijFpCOl673glJlcmNi5_FiMVP5gNgRXwdkRg_bSaO6qQp5ycDFnPYtG-2EWdZVxXHQzQZ20fDAwUuRg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7063495,40.4396006,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Iglesia del Espíritu Santo de Madrid</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/U3Sfrqgliiiz0gvbQiW1nKO0-WmS9E8XhfcJnuqxAVRWpJ5h3oOoBLy3BYGliEfWBwzHWtWhlvJxPXplX2QrR1wlsT0o6mWXhBS7-gisnhgJyM3_a85CI5o7Ar5qwT2JnDy1lA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!iglesia-del-espiritu-santo-de-madrid/c1b8q]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/U3Sfrqgliiiz0gvbQiW1nKO0-WmS9E8XhfcJnuqxAVRWpJ5h3oOoBLy3BYGliEfWBwzHWtWhlvJxPXplX2QrR1wlsT0o6mWXhBS7-gisnhgJyM3_a85CI5o7Ar5qwT2JnDy1lA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6861801,40.4419483,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sky Lounge Hotel Indigo Madrid</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/1IsBE02wabfSYdfJLPBYNorHeBd8kJChq-J2w8YGj1EIEfIfuiL6Nakwrc7n2KXvgy5oquQWWrwIitdDgCbR3QMfjxTgQ2PGSKASsT_IOzSNp0COgaGPjiVm4S5VcYh2WVE_7A" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!sky-lounge-hotel-indigo-madrid/cme]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/1IsBE02wabfSYdfJLPBYNorHeBd8kJChq-J2w8YGj1EIEfIfuiL6Nakwrc7n2KXvgy5oquQWWrwIitdDgCbR3QMfjxTgQ2PGSKASsT_IOzSNp0COgaGPjiVm4S5VcYh2WVE_7A</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7073599000000006,40.4207115,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>José María Sánchez García</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/7yFT3RcxCceKhtTQA-gckffE3btkhjbuWnm5ovZti9v5b1o1A9BWEMmfCgUowAtC8hQOZ4oSUMlowtRrZJ8EKWRhjEq_kvqK2xcoWjHMSuWwsjTKBmh1iGQtGPcum35yE7TY6g" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!jose-maria-sanchez-garcia/ct1d]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/7yFT3RcxCceKhtTQA-gckffE3btkhjbuWnm5ovZti9v5b1o1A9BWEMmfCgUowAtC8hQOZ4oSUMlowtRrZJ8EKWRhjEq_kvqK2xcoWjHMSuWwsjTKBmh1iGQtGPcum35yE7TY6g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7141051000000003,40.4273228,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Junquera Arquitectos</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/eci6VEWVQPEomIStNpfRMAoDlMMC_Zgv8i4ZzA4Wtj-Ir9m_D0hKOxP6rM32o-ZtuFWJSO62DhSkWBDhpsMMLlQ4z0uBL3Ltz0gIZXNFoIk3CnVWllJRdnXiMu-T3WfWNG4xcw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!junquera-arquitectos/c11zf]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/eci6VEWVQPEomIStNpfRMAoDlMMC_Zgv8i4ZzA4Wtj-Ir9m_D0hKOxP6rM32o-ZtuFWJSO62DhSkWBDhpsMMLlQ4z0uBL3Ltz0gIZXNFoIk3CnVWllJRdnXiMu-T3WfWNG4xcw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6695433000000004,40.4488668,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estudio Lamela</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/qH0d8DOve3jC6gPjuvqGDgreS2rJdeOWCrtt-RG_xftV_TjWYowfBgd1Q5gft-wrRn3UFJ1Vhj3Q5r7b0kGoMNXNYI6uJ6rCjkpwB1fKHaIooxfb5HR8REPugauaKRuE7gMVjw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!estudio-lamela/c439]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/qH0d8DOve3jC6gPjuvqGDgreS2rJdeOWCrtt-RG_xftV_TjWYowfBgd1Q5gft-wrRn3UFJ1Vhj3Q5r7b0kGoMNXNYI6uJ6rCjkpwB1fKHaIooxfb5HR8REPugauaKRuE7gMVjw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6205035999999997,40.4509562,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Palacio de Liria</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/1PiNPpHY9ht0ofJLZ3G-QMb9FRjyQvfd71r8geE0JMIOdCBdmaHiC832zJ2dHBA__riF9AWGmK5NSKVHp7O5JKxTw3xh5v0ZnAS8BuTbCAEYTSAxaGzAw3m6DSf1u74EBJk-HQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!palacio-de-liria/coo9]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/1PiNPpHY9ht0ofJLZ3G-QMb9FRjyQvfd71r8geE0JMIOdCBdmaHiC832zJ2dHBA__riF9AWGmK5NSKVHp7O5JKxTw3xh5v0ZnAS8BuTbCAEYTSAxaGzAw3m6DSf1u74EBJk-HQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7134716,40.4272229,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Luis Vidal + Arquitectos</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/1-2S8QdYJn25UQAXS-R6W06y-AIOTqaQguh4DYkCUTOJVO5fFtb5WAJi5ESwldQf3bJ0Xag44kUjDopdoN8_ePUmTq53t_d_hF4viu2QhKj-XaObbbr3RxazASTAGIE3DP40Zw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!luis-vidal-arquitectos/c1oh7]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/1-2S8QdYJn25UQAXS-R6W06y-AIOTqaQguh4DYkCUTOJVO5fFtb5WAJi5ESwldQf3bJ0Xag44kUjDopdoN8_ePUmTq53t_d_hF4viu2QhKj-XaObbbr3RxazASTAGIE3DP40Zw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6835559,40.4295441,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Madrid Río</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/gWJo3xyuh8y6pEmc_6YH27W679kh166j0V5-rRTcqKpPhX-a2Ziahc9Eheh8SzpURzyzr5EBZLxGNW7uJDVSTxH7ORDpD1we93aW-ZuBNe91n0VbV8lKFls2VN4IsdjDu-RT_w" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!madrid-rio/c1meq]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/gWJo3xyuh8y6pEmc_6YH27W679kh166j0V5-rRTcqKpPhX-a2Ziahc9Eheh8SzpURzyzr5EBZLxGNW7uJDVSTxH7ORDpD1we93aW-ZuBNe91n0VbV8lKFls2VN4IsdjDu-RT_w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7102312999999993,40.3992532,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MAPAA</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Uhibi4YlBxyK2dhFFkEInjW0ePIutNnrz38ZT7xETFkiJKGS6_i7PX0u7nf7bkePEvxeUGw2bSy20ijv1TcyUFDMIlyO_mq563n0ls9VA4IcLiYQ86RPSykahi0ClpmSs0AGHg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!mapa-a/c88j]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/Uhibi4YlBxyK2dhFFkEInjW0ePIutNnrz38ZT7xETFkiJKGS6_i7PX0u7nf7bkePEvxeUGw2bSy20ijv1TcyUFDMIlyO_mq563n0ls9VA4IcLiYQ86RPSykahi0ClpmSs0AGHg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7099506,40.4205682,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gimnasio Maravillas</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/v1m78VOPiFm8F3JpH8twUeZoaq-R05byevH66ivW5pTxTVLXbfOOT3VV8Oa4r4MT0eKWJt7Y4W3JVmPjAEhCkC0rmPdV-SyCdFub4DAdYVWKulXOG6Ez_7rkCbPzm4s3jbR-ng" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!gimnasio-maravillas/c1v23]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/v1m78VOPiFm8F3JpH8twUeZoaq-R05byevH66ivW5pTxTVLXbfOOT3VV8Oa4r4MT0eKWJt7Y4W3JVmPjAEhCkC0rmPdV-SyCdFub4DAdYVWKulXOG6Ez_7rkCbPzm4s3jbR-ng</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6874505,40.4462218,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mariano</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/-3bniHlr8bQkGHPPi6Xkfi77XSO-pBFn8EorYLw2W7g2tmVT5puX-S_feWAADf8ItJw5ulggQAVmVradPn3yK526Va_-1NIVPHVb5Plw6A6vvsq6y-710JleOBGRh-OGD19aSQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!mariano/c21eh]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/-3bniHlr8bQkGHPPi6Xkfi77XSO-pBFn8EorYLw2W7g2tmVT5puX-S_feWAADf8ItJw5ulggQAVmVradPn3yK526Va_-1NIVPHVb5Plw6A6vvsq6y-710JleOBGRh-OGD19aSQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6632829,40.421710100000006,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Martín de Lucio Arquitectos</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/p76uTgr6ioU5tVKvarmzRK_BE6ueePBIZLIM63K3U0cO2cEXP6V4jkS0dmY8-usH1YDK19zfiOC2lv6qLmFLeAmnDMSyMc4opSNNgldaqoRHDnIXGD6TBzuP_MTRKyaXAWbcjJ8" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!martin-de-lucio-arquitectos/c1y1d]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/p76uTgr6ioU5tVKvarmzRK_BE6ueePBIZLIM63K3U0cO2cEXP6V4jkS0dmY8-usH1YDK19zfiOC2lv6qLmFLeAmnDMSyMc4opSNNgldaqoRHDnIXGD6TBzuP_MTRKyaXAWbcjJ8</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7084770000000002,40.4389952,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hotel Meninas</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/mFW8cRP1pkBscEsbe2CphO0Rmk9Nedqllp2RdsiRdAbyoW9tyJe5fcIcGiOrcETgeh3qDpmtRNtWyIsTnOSMUBUCkVCiVKYsCK8YXzTik54ziq1VYlWu4fGCdA-ajj5xUOlvbA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!hotel-meninas/c9zv]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/mFW8cRP1pkBscEsbe2CphO0Rmk9Nedqllp2RdsiRdAbyoW9tyJe5fcIcGiOrcETgeh3qDpmtRNtWyIsTnOSMUBUCkVCiVKYsCK8YXzTik54ziq1VYlWu4fGCdA-ajj5xUOlvbA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7093203000000003,40.4191117,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Metrovacesa Castellana 280</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/6iGzaxHNjoLxdOYsVj0p7jQvq7h3SAUyZMEXtUUt4fBb3mIVwCHsEnkvaUeOmHxkewKTdf8pORUWyjjTKqIj8CNgKq9-4x_JmvKcooyypUHnbUKja8INToDTsuezd9ncCuoj6Q" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!metrovacesa-castellana-280/c18y4]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/6iGzaxHNjoLxdOYsVj0p7jQvq7h3SAUyZMEXtUUt4fBb3mIVwCHsEnkvaUeOmHxkewKTdf8pORUWyjjTKqIj8CNgKq9-4x_JmvKcooyypUHnbUKja8INToDTsuezd9ncCuoj6Q</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6860885999999997,40.4763279,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Miradores de Madrid</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/lwLDnOmDviLIaodEElZPV7oEleQ5NkLVP4CC9wcvpdwwHenNnPZrqc2CMnu83ILPHVlPdXT2W3HegKsi_Ibp0YBJo276K3vDpMkbLnSxyUqhr6pgn-yjcduL4oSNbhpocSFC_A" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!miradores-de-madrid/ccux]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/lwLDnOmDviLIaodEElZPV7oEleQ5NkLVP4CC9wcvpdwwHenNnPZrqc2CMnu83ILPHVlPdXT2W3HegKsi_Ibp0YBJo276K3vDpMkbLnSxyUqhr6pgn-yjcduL4oSNbhpocSFC_A</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6966394000000005,40.4184203,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Galería Moisés Pérez de Albéniz</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/vg2MFDcKqoMtcLJq7lhMv_UUcnpExCTNNgmEqc8UNSDZL15odXdDGbC4jf2mqBR7FRe2NdCSZTV6OTqpqymmEpm1_ovxJesX391tJGUGz9PvMLA2FoxZ3DvRppfeze96z9u3pw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!galeria-moises-perez-de-albeniz/cp5s]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/vg2MFDcKqoMtcLJq7lhMv_UUcnpExCTNNgmEqc8UNSDZL15odXdDGbC4jf2mqBR7FRe2NdCSZTV6OTqpqymmEpm1_ovxJesX391tJGUGz9PvMLA2FoxZ3DvRppfeze96z9u3pw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6978947,40.407481,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Moneo Brock Studio</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Y97gRBgwRDOslkxegDqL0b1iBjKpXTioKuzASP3HwlbIxeCWgz4afcBhMvRsYCFi-nDGv6mgdbSjfRJK17UkVBd2vECtHAse0nw948_yb9O7XOeqESX6KMKfx3moz-Hn1TWg9Q" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!moneo-brock-studio/co9x]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/Y97gRBgwRDOslkxegDqL0b1iBjKpXTioKuzASP3HwlbIxeCWgz4afcBhMvRsYCFi-nDGv6mgdbSjfRJK17UkVBd2vECtHAse0nw948_yb9O7XOeqESX6KMKfx3moz-Hn1TWg9Q</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6742089,40.4479991,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Museo del Reloj de Grassy</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/v8sZgZtfo2ymul_RH5xuE8wMZ2JcM43Pc4vDSubhJjU-6XivEy_tUMDUUKGvrqHyOH2lJ2cu1kNt6OyWfl7PH3rF8oBJIgS9gCpiy1auJQtlPKxJRAAttalclEd9stfm-DAGbA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!museo-del-reloj-de-grassy/c16w4]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/v8sZgZtfo2ymul_RH5xuE8wMZ2JcM43Pc4vDSubhJjU-6XivEy_tUMDUUKGvrqHyOH2lJ2cu1kNt6OyWfl7PH3rF8oBJIgS9gCpiy1auJQtlPKxJRAAttalclEd9stfm-DAGbA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6981982,40.4192332,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NAHARRO</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/pb9krUuy9K0rpXc-3jMymBXBVpfuC_A0lHwpl8Y3uhASnNtrxCfLr27ODVoQmCu29F3Bs1xFpynhTU_0M-oLFq96YwoRzhF0Z6VFM68MUgxprfZ6QHRH5BVXz8xNfHhMiYV3hQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!naharro/cz48]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/pb9krUuy9K0rpXc-3jMymBXBVpfuC_A0lHwpl8Y3uhASnNtrxCfLr27ODVoQmCu29F3Bs1xFpynhTU_0M-oLFq96YwoRzhF0Z6VFM68MUgxprfZ6QHRH5BVXz8xNfHhMiYV3hQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6745896000000005,40.4026808,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nave de Motores de Pacífico</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/f2SONP3_HtFuxJqMKxjMNVU6A5GhrrEQPAA4fxpLPb8LNqckRDqsmwVOq-plS0mmSn6invpGyrbJT4wRgX_YkDhttj7fie0Az4itOYoID0CZy5RhtEzmXthiD3g3ddeYWzdo3w" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!nave-de-motores-de-pacifico/c1it6]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/f2SONP3_HtFuxJqMKxjMNVU6A5GhrrEQPAA4fxpLPb8LNqckRDqsmwVOq-plS0mmSn6invpGyrbJT4wRgX_YkDhttj7fie0Az4itOYoID0CZy5RhtEzmXthiD3g3ddeYWzdo3w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6744729000000005,40.4040131,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NH Collection Madrid Abascal</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/fPeGshjsLQblTlEjXEdKRERuwWxhi0bVvgB3y3516ZfI6rK8H1fWGPAXcktQfevUgG8ar749cBN8zfmYeUgioyI3lpoQs6KTxldemoLZy4NS9n6JvLmLMQ3SQTtcu1GlLzYM9g" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!nh-collection-madrid-abascal/c1j5l]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/fPeGshjsLQblTlEjXEdKRERuwWxhi0bVvgB3y3516ZfI6rK8H1fWGPAXcktQfevUgG8ar749cBN8zfmYeUgioyI3lpoQs6KTxldemoLZy4NS9n6JvLmLMQ3SQTtcu1GlLzYM9g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6951442000000005,40.4383802,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NH Collection Madrid Palacio de Tepa</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/5L5Q-Yc2fPWmUyFCOC9o2jp_7y6iXyxwXbjoMP2yB0FrkMp24bE67IepFZLBz3EozHmxPrm8Rrqzj0SIKRRe_QkVx4WxAonJp64ahqWzbWgeSZX9Z05K1aVc5FDN8wynhV2RVA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!nh-collection-madrid-palacio-de-tepa/c2078]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/5L5Q-Yc2fPWmUyFCOC9o2jp_7y6iXyxwXbjoMP2yB0FrkMp24bE67IepFZLBz3EozHmxPrm8Rrqzj0SIKRRe_QkVx4WxAonJp64ahqWzbWgeSZX9Z05K1aVc5FDN8wynhV2RVA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7016535,40.4138605,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NH Collection Madrid Paseo del Prado</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/lycyXukLNyG7J7IiyTM5v9RWOvgL0XKJdNsAX0YSBtjPDuwKFGGzPDA4DRhBvE3p-cIWMwAdPcLQc2aEzpb8Ciqn8_gEX-mq7O2SkXss0uYLNDLvPB_OBXfrHVu2F3Y0jowEJQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!nh-collection-madrid-paseo-del-prado/c1e7z]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/lycyXukLNyG7J7IiyTM5v9RWOvgL0XKJdNsAX0YSBtjPDuwKFGGzPDA4DRhBvE3p-cIWMwAdPcLQc2aEzpb8Ciqn8_gEX-mq7O2SkXss0uYLNDLvPB_OBXfrHVu2F3Y0jowEJQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6939348000000005,40.415114,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NH Madrid Nacional</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/O7SJGgxLzUU3SNvKqdva1QmryDJwZp0lGSNOPx7XiOxOvtqV76rMonmd_ghnuyZh2SfNLi-CsyPHFcanYrh0jPWgG4JwdenEgxCt-MfxBGU6K8MB4di6ldDqZtij7cQvSM48JA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!nh-madrid-nacional/c2034]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/O7SJGgxLzUU3SNvKqdva1QmryDJwZp0lGSNOPx7XiOxOvtqV76rMonmd_ghnuyZh2SfNLi-CsyPHFcanYrh0jPWgG4JwdenEgxCt-MfxBGU6K8MB4di6ldDqZtij7cQvSM48JA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6927769,40.4099781,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nieto Sobejano Arquitectos</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/X_jf4HfWdG-o7ayUd5EhOZWN0nEViAJCNH5j9pbcv6Oq9eKHVpj_PAbqfoAHsqTSbkT_wjt6FqPdhrAknySlnm3adT72SYKaHp2dmXjn8jBBpyq955jzN5h2YOK_H0M6BY5I9A" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!nieto-sobejano-arquitectos/c225h]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/X_jf4HfWdG-o7ayUd5EhOZWN0nEViAJCNH5j9pbcv6Oq9eKHVpj_PAbqfoAHsqTSbkT_wjt6FqPdhrAknySlnm3adT72SYKaHp2dmXjn8jBBpyq955jzN5h2YOK_H0M6BY5I9A</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6806631000000003,40.4534707,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>n'UNDO</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/1DYN125vb8NKjXsk3F-YhmF0bDzRv3NJqaowl-kiHo8RVqXM9qS2MoOxLjBxjN7fxrgiOSp66XMlf7bJ2pprV8gSVClwcZP57gnATuMroocLg-UTx8L3vr5dJCvlT1y3yR5iog" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!nundo/chh7]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/1DYN125vb8NKjXsk3F-YhmF0bDzRv3NJqaowl-kiHo8RVqXM9qS2MoOxLjBxjN7fxrgiOSp66XMlf7bJ2pprV8gSVClwcZP57gnATuMroocLg-UTx8L3vr5dJCvlT1y3yR5iog</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6779256000000005,40.4038749,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Olalquiaga Arquitectos</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/L4dSTeC8HsvEWUEkkiZVcFbApx33HkwPDDeE2fZW2X378JC_6sBHSxMdnSuU_d96wltBUEUv8imzAdPU2Wi-3oSKqfM6PAwayV3JSQ4aS_ecSa9k7EINejKaCbgtgVfKo8Ov7w" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!olalquiaga-arquitectos/c1ao1]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/L4dSTeC8HsvEWUEkkiZVcFbApx33HkwPDDeE2fZW2X378JC_6sBHSxMdnSuU_d96wltBUEUv8imzAdPU2Wi-3oSKqfM6PAwayV3JSQ4aS_ecSa9k7EINejKaCbgtgVfKo8Ov7w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6882772,40.4441078,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hotel Ópera</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/SeuVjssiZ2b4upx1mlTebL2GmSBGFoJzItaYDPUlPBCwnziSqSgCLA7lb66W5l24Mj0rMX2KG01N5jEaqNXK9yTWKJCh_-qqVKwLnmNNIBRAchdyRGXHv1g77SADUKbnuvZJPA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!hotel-opera/ct1g]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/SeuVjssiZ2b4upx1mlTebL2GmSBGFoJzItaYDPUlPBCwnziSqSgCLA7lb66W5l24Mj0rMX2KG01N5jEaqNXK9yTWKJCh_-qqVKwLnmNNIBRAchdyRGXHv1g77SADUKbnuvZJPA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.710149,40.418872400000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Paredes Pedrosa Arquitectos</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/7_xPnXgLYm5lo8nOrfcNp3eZUtKcM_T9R6FbGZRLO6kzrQPxq7yO3ZfAj6GiZWReN4-Ald8Ay1f-Z2WXihiO3W29uAkT6U_s5TU7_LZQcE9mF6InrIHzOSlwIYhzbztnpB_dXQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!paredes-pedrosa-arquitectos/c1bzs]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/7_xPnXgLYm5lo8nOrfcNp3eZUtKcM_T9R6FbGZRLO6kzrQPxq7yO3ZfAj6GiZWReN4-Ald8Ay1f-Z2WXihiO3W29uAkT6U_s5TU7_LZQcE9mF6InrIHzOSlwIYhzbztnpB_dXQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6834355,40.4465665,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pérez Llorca</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/0T3zGai7xIHD7cM3UouyuVSePNGJ_aLXlvK8A2CoNgwmK_q5ZCUMqyEpUOJ5_pWkJJrlg9IyUQQ4O45XZPQi-yvC2QpB9Bk2guRYJzXrDl5uepGO_kANm_ivE057q9LxHdJB1A" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!perez-llorca/c177g]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/0T3zGai7xIHD7cM3UouyuVSePNGJ_aLXlvK8A2CoNgwmK_q5ZCUMqyEpUOJ5_pWkJJrlg9IyUQQ4O45XZPQi-yvC2QpB9Bk2guRYJzXrDl5uepGO_kANm_ivE057q9LxHdJB1A</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6879860000000004,40.4352274,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Periferia</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/HbN0y4LdCnwumQpzAjOVpFdqa7P-f13_1QkiiFoA3jONPGsZEgOM96oG7Fx4V98ahONkM4Gv4eLHfS2r3emj0jtTiFagPg3OreQu8cwA0tFQ4IkMjSjNjJ2uUmX41JHmyw9_EA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!periferia/chll]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/HbN0y4LdCnwumQpzAjOVpFdqa7P-f13_1QkiiFoA3jONPGsZEgOM96oG7Fx4V98ahONkM4Gv4eLHfS2r3emj0jtTiFagPg3OreQu8cwA0tFQ4IkMjSjNjJ2uUmX41JHmyw9_EA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7098748000000006,40.3825927,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plaza de Toros de las Ventas</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/QZMDAqBYhAKyuGE_KWY6tcIqqTgwEekGNjnuvqUBLJvN1bH0wjZcknD2YFROvtJVIncApoGXdgoeMxYB-jDO2BWa1wWvwccRPpFgYzpAwlXTHhTi_CimxDmpriOJuRszY09syw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!plaza-de-toros-de-las-ventas/c3sh]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/QZMDAqBYhAKyuGE_KWY6tcIqqTgwEekGNjnuvqUBLJvN1bH0wjZcknD2YFROvtJVIncApoGXdgoeMxYB-jDO2BWa1wWvwccRPpFgYzpAwlXTHhTi_CimxDmpriOJuRszY09syw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6628632000000003,40.4315811,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fundación PONS</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/dKjJ8niujaXcFIqZYUFAoTlr8pDYb1H6njxpqiYi2yfRnD5bdflPt3I1ASSv9bbj3vpsVSan1qupax-QBYQKuXP9ZIpdTyE0zV4Y2PIqqEIjMzbcTMBBrKPDG9NYrLoBZMqJTw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!fundacion-pons/cnb0]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/dKjJ8niujaXcFIqZYUFAoTlr8pDYb1H6njxpqiYi2yfRnD5bdflPt3I1ASSv9bbj3vpsVSan1qupax-QBYQKuXP9ZIpdTyE0zV4Y2PIqqEIjMzbcTMBBrKPDG9NYrLoBZMqJTw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6858185,40.44102,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hotel Silken Puerta América</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Hy3fzcPJOpoXQs0I8JJhWaKlyMPgug2UzfPFibn4umLJRPccYVZBVN5WpKjvtJ9HvCYkNmG7IeaDnO7eUUDKw8U-pjUvECwx7FjnJF94ssxBgqmVaLunI9-G9eY5DrHCHGvdDQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!hotel-silken-puerta-amrica/c1qxn]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/Hy3fzcPJOpoXQs0I8JJhWaKlyMPgug2UzfPFibn4umLJRPccYVZBVN5WpKjvtJ9HvCYkNmG7IeaDnO7eUUDKw8U-pjUvECwx7FjnJF94ssxBgqmVaLunI9-G9eY5DrHCHGvdDQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6700091,40.4410806,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Quinta del Sordo</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/XmxeOR7b4hvzywyEQW8raMg5ZuLGEEWAfOIKtCUjbnIpj8k8WvIiHrkvgmFAJvOPTO1KIFgSUu5Wf85Ykj6cHaTKJv-CugX6I0G8WsBvcuBElvhSC3FeZdepN78rYKsO7dXAvw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!quinta-del-sordo/c1leh]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/XmxeOR7b4hvzywyEQW8raMg5ZuLGEEWAfOIKtCUjbnIpj8k8WvIiHrkvgmFAJvOPTO1KIFgSUu5Wf85Ykj6cHaTKJv-CugX6I0G8WsBvcuBElvhSC3FeZdepN78rYKsO7dXAvw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7145669,40.4093503,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Auditorio Rafael del Pino</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/UqD9yQynPchwyH_IFTRY0dUFj7CfxASCRZjLa_8iYbnJ21fpbEmCXgBKqnEqXbK6CPrx-LizGBHfhQnEAiilRIMK6C7ku5JaSEhNXNfeXqD-NNkMN0IEdY2B7nQ0vXU7a0ZPog" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!auditorio-rafael-del-pino/chuh]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/UqD9yQynPchwyH_IFTRY0dUFj7CfxASCRZjLa_8iYbnJ21fpbEmCXgBKqnEqXbK6CPrx-LizGBHfhQnEAiilRIMK6C7ku5JaSEhNXNfeXqD-NNkMN0IEdY2B7nQ0vXU7a0ZPog</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6892613000000005,40.4342093,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Real Conservatorio Superior de Música</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/1d-IJOusU7nlvCYU_76aE76nmSfbi65lmiJUfUnYKurTo6pBuvma1KDMeA7G80riWYjdQAUWqq7l41M9T8ydeD5NrhieBi8odobnc0LKh8UXc5HRkZN51qinRcDJkeR9BodujA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!real-conservatorio-superior-de-musica-de/c1wrr]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/1d-IJOusU7nlvCYU_76aE76nmSfbi65lmiJUfUnYKurTo6pBuvma1KDMeA7G80riWYjdQAUWqq7l41M9T8ydeD5NrhieBi8odobnc0LKh8UXc5HRkZN51qinRcDJkeR9BodujA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.694402,40.4091305,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Residencia de Estudiantes</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/7f2yvej3B6fi3qEavrQ02__MWpa5IfghyltmFO9lmaL4vV878aq4R0wYYHxc6LADW9V49lpV_aHFxtJvqpxNdBcR8FgpMlUcWf4D-_NC4awqculhu92_wxwRplCYYUMQJGKXzg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!residencia-de-estudiantes/cd1y]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/7f2yvej3B6fi3qEavrQ02__MWpa5IfghyltmFO9lmaL4vV878aq4R0wYYHxc6LADW9V49lpV_aHFxtJvqpxNdBcR8FgpMlUcWf4D-_NC4awqculhu92_wxwRplCYYUMQJGKXzg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6880526000000002,40.4406577,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Roca Madrid Gallery</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/pU3oneF2WNPv7i9NoNRlvDpfCNmt8OqyDymFgCxg50AzHWYY6tJszLtfEaMif984CmZhWWJXRGwuMqfu09BKaA82rnMlx_jeEGENZMw0fyw7AFrGwPNgHeqNmC58PjtFyKQGfA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!roca-madrid-gallery/c4tq]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/pU3oneF2WNPv7i9NoNRlvDpfCNmt8OqyDymFgCxg50AzHWYY6tJszLtfEaMif984CmZhWWJXRGwuMqfu09BKaA82rnMlx_jeEGENZMw0fyw7AFrGwPNgHeqNmC58PjtFyKQGfA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6931822000000003,40.4382756,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rubio Arquitectura</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/ux4FW9GsVigpFjwmlIEMj-_sb0d9da8fagCEueMGunMhVMA7NRGAYbU5PQgTUBhfPhFtw6qyNemMyGa947rfSprkwYqI5CKI19T5YBW8MKU9A9PZeTB1rhnDMvGjiY5HEVZIRQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!rubio-arquitectura/cm51]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/ux4FW9GsVigpFjwmlIEMj-_sb0d9da8fagCEueMGunMhVMA7NRGAYbU5PQgTUBhfPhFtw6qyNemMyGa947rfSprkwYqI5CKI19T5YBW8MKU9A9PZeTB1rhnDMvGjiY5HEVZIRQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6843737,40.4249463,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruiz-Larrea y Asociados</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/swo5DlhRFXDMuxW_NKlslkAYWS4qvd1-LdeQWBasxRLotLhJffTuHglEe0j25NXUcnWFc7BpoKgbSlR3fp9xI5lMcHi1YPK1XcT4q0onk0hGlyYx9JaDKC5R6AOys7CN95mytw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!ruiz-larrea-y-asociados/cci7]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/swo5DlhRFXDMuxW_NKlslkAYWS4qvd1-LdeQWBasxRLotLhJffTuHglEe0j25NXUcnWFc7BpoKgbSlR3fp9xI5lMcHi1YPK1XcT4q0onk0hGlyYx9JaDKC5R6AOys7CN95mytw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6866269000000003,40.4260613,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hotel Santo Domingo</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/ed4JL8u1eZgtmsB1usW1BREgb98Y9j8sODyYBcRUKBqnaUajU2n5Tg8KlHc1MJbdK5KYyBtRrh6rRUtya4BPIZo9mNudEscFP6WgLAckWGVXCb1YnImT1YtZNdEVxynPAczXoQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!hotel-santo-domingo/cid4]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/ed4JL8u1eZgtmsB1usW1BREgb98Y9j8sODyYBcRUKBqnaUajU2n5Tg8KlHc1MJbdK5KYyBtRrh6rRUtya4BPIZo9mNudEscFP6WgLAckWGVXCb1YnImT1YtZNdEVxynPAczXoQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7085393000000004,40.4206489,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hotel Sidorme Fuencarral 52</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/M1aDkklcBc9DuBhAbVvwULj_eaOi9t7KlsyRvtB0a0N9ZgQQFQ2TiSCOruIXL30sZWo_uJZeNl0NFnPkpCetyBJ7X1wt2EIzDPDzixe66BmZZBq_oY5fIirCEeP-z_0F9o3Sxg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!hotel-sidorme-fuencarral-52/c70h]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/M1aDkklcBc9DuBhAbVvwULj_eaOi9t7KlsyRvtB0a0N9ZgQQFQ2TiSCOruIXL30sZWo_uJZeNl0NFnPkpCetyBJ7X1wt2EIzDPDzixe66BmZZBq_oY5fIirCEeP-z_0F9o3Sxg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7005919,40.4235125,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sede Spainmedia</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/VeZ3PEAbqwNtzkkR-UHWEWBDYAi_EzkWGPMhOY4XsF3HwhlUx2P2HTWyCxC9DFgAAW0QNxSgIKoBayfeeEYJnS6CCLBw4ZR7CHpls4zGZ8AN86Yhlraw936oM8zElKqQ8LQJlQ" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!sede-spainmedia/cq4]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/VeZ3PEAbqwNtzkkR-UHWEWBDYAi_EzkWGPMhOY4XsF3HwhlUx2P2HTWyCxC9DFgAAW0QNxSgIKoBayfeeEYJnS6CCLBw4ZR7CHpls4zGZ8AN86Yhlraw936oM8zElKqQ8LQJlQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.695614,40.4087004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tabacalera - Antigua Fábrica de Tabacos</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/8t92xYK_dHG5aJhC0rpTS0-4DfmwJYAon2eCfGyCjle7xPmLsFD5ktcdGDMhWDl8U6XRsAJ-OpW3xc3uJHGyvpvPtr-dVNcT-k7lXUHxIkSGXTvcVaOkIfElj7nQwlmhxWwI0w" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!tabacalera-antigua-fabrica-de-tabacos/c1i3j]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/8t92xYK_dHG5aJhC0rpTS0-4DfmwJYAon2eCfGyCjle7xPmLsFD5ktcdGDMhWDl8U6XRsAJ-OpW3xc3uJHGyvpvPtr-dVNcT-k7lXUHxIkSGXTvcVaOkIfElj7nQwlmhxWwI0w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7031068,40.4061868,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Teatro Real</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/KbDIGFKWwPH_OU130f8ac7n4rABHqHqsi3v3tCzkQMNHE-JLJHxYNMyIXLkogCHIjXZKIGE005UdrqRpA82bmvMNv0SAjWp6IaG1D6EROo8wUjYhhkse4aheKQUnRNGVfb_q3g" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!teatro-real/cenp]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/KbDIGFKWwPH_OU130f8ac7n4rABHqHqsi3v3tCzkQMNHE-JLJHxYNMyIXLkogCHIjXZKIGE005UdrqRpA82bmvMNv0SAjWp6IaG1D6EROo8wUjYhhkse4aheKQUnRNGVfb_q3g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7091026,40.4181357,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estudio Teresa Sapey</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/IMqTRiBYwYZMsz2Mp1cHd6v2OIk7yPUYCaglr3vLEdhZGzkCL15-ebsHS2BAClk4U6gA5RODqwCHDDsoCOZw80euUMyCFStqgluGQ3fcbq8gS7P9RKoXNxdziFyonxkx34e54w" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!estudio-teresa-sapey/cpko]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/IMqTRiBYwYZMsz2Mp1cHd6v2OIk7yPUYCaglr3vLEdhZGzkCL15-ebsHS2BAClk4U6gA5RODqwCHDDsoCOZw80euUMyCFStqgluGQ3fcbq8gS7P9RKoXNxdziFyonxkx34e54w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6913652,40.4168383,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vivienda Teresa Sapey</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/azifrceCYm7DRWUuMqHnH7eUPiCiw9YntJl1oBpzet16zEQshM2IOMp5HOE4NWLyDjj3vOO2DeCXU0C9vw5NO4aRrBZP68j8Ze9Tf7NfdTeorXBWRKaLzBYKlABFdcYSbIm-rg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!vivienda-teresa-sapey/c12u8]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/azifrceCYm7DRWUuMqHnH7eUPiCiw9YntJl1oBpzet16zEQshM2IOMp5HOE4NWLyDjj3vOO2DeCXU0C9vw5NO4aRrBZP68j8Ze9Tf7NfdTeorXBWRKaLzBYKlABFdcYSbIm-rg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6889708,40.4190383,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Shed Coworking</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/ka1aBQeKZ2L4QWaLf0zZOsABYg0i1gna4u4QNyyGxQgsoAMOIMfi4_nmWd2aLQWSLO_Pb1jArKcxS8j-WN_One5Ccj1KxOHdXrWTBYyJMoarZUvpa32xtRFYRzZembOr9i1Zwg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!the-shed-coworking/c1fjl]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/ka1aBQeKZ2L4QWaLf0zZOsABYg0i1gna4u4QNyyGxQgsoAMOIMfi4_nmWd2aLQWSLO_Pb1jArKcxS8j-WN_One5Ccj1KxOHdXrWTBYyJMoarZUvpa32xtRFYRzZembOr9i1Zwg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6819381000000004,40.42612630000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Museo Thyssen-Bornemisza</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/1cAj8f_WQVkAVqJkQg6jK34rjMOQTyDx8-ERUYpJdhJaNjy1mI9hkOHxwRkx1fVrZp9cfEV6eCQa4sp35D5WossmbPkCvQh7qczIWhe-3SJcaH53RkAgL_6kptQOWmh7jsIdZw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!museo-thyssen-bornemisza-/c172k]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/1cAj8f_WQVkAVqJkQg6jK34rjMOQTyDx8-ERUYpJdhJaNjy1mI9hkOHxwRkx1fVrZp9cfEV6eCQa4sp35D5WossmbPkCvQh7qczIWhe-3SJcaH53RkAgL_6kptQOWmh7jsIdZw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6949425,40.4160397,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Torre de Madrid</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/CeX8s0CONshndqt82PI_7hdCuyVAJuLz6SE2V5H2yWUSwsLfSuqOSngEdda31TWpKD8530z6sD7hWP1QjLZs1l9Vw0XkP_SV6B0Lq-zItGxFycigfCN_HrzbEn9UtwO2XtIB0w" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!torre-de-madrid/c1m0a]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/CeX8s0CONshndqt82PI_7hdCuyVAJuLz6SE2V5H2yWUSwsLfSuqOSngEdda31TWpKD8530z6sD7hWP1QjLZs1l9Vw0XkP_SV6B0Lq-zItGxFycigfCN_HrzbEn9UtwO2XtIB0w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7123983000000003,40.4241998,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Touza Arquitectos</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/5oClJqXUAYDrbsiNqW7StKen7cWBigNVLgJseyNBvEwEwbGkLtoMMOI98O0n82x4NYG_Pq13cKgYbsWK8ypo6wJw_AgjoHStznDMnOEgZxJdmKehZBY7UUd9ir-CF1je-c_d_Q" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!touza-arquitectos/cmnu]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/5oClJqXUAYDrbsiNqW7StKen7cWBigNVLgJseyNBvEwEwbGkLtoMMOI98O0n82x4NYG_Pq13cKgYbsWK8ypo6wJw_AgjoHStznDMnOEgZxJdmKehZBY7UUd9ir-CF1je-c_d_Q</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6955399,40.4489066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hotel Tryp Atocha</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/jHeobEQ-2EaDQgD5KuBEu5NXAb2Y4OfG_MmIARbXJQhCrltTAEV05Cx-GbA-iYd0aWnyn8D0IyydWLPzZe1Vx-mc69rPI-bBNROXprGYklz3B0k23WtSSAqTfMDDy1lvSO4rmw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!hotel-tryp-atocha/c1vl2]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/jHeobEQ-2EaDQgD5KuBEu5NXAb2Y4OfG_MmIARbXJQhCrltTAEV05Cx-GbA-iYd0aWnyn8D0IyydWLPzZe1Vx-mc69rPI-bBNROXprGYklz3B0k23WtSSAqTfMDDy1lvSO4rmw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6975329000000006,40.4116908,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Urbanismo manzana San Idelfonso</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/rUOqIOwuohFz83TUnnsvgSnthSQDFRVCtA8cdv6Ittr8dmMGJzLA2kgg_4jdii3D4ypvElY7y4kVbhxqoN_3q0IAqdbJOFwlObafcvdRiGGVwkCAdhO699moYrXo9YaSW6hvgA" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!urbanismo-manzanza-san-idelfonso/ch7w]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/rUOqIOwuohFz83TUnnsvgSnthSQDFRVCtA8cdv6Ittr8dmMGJzLA2kgg_4jdii3D4ypvElY7y4kVbhxqoN_3q0IAqdbJOFwlObafcvdRiGGVwkCAdhO699moYrXo9YaSW6hvgA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7017852,40.4244086,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Westin Palace Madrid</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/3Z66dM1EJ6aYpNtuwAEiTssm63CB01LSfFQ0u2l1ZzN3tXbwkr4SnSUlP6D3d6N5iomHBXj-6gpWV02pUW173lam3YPYTGfuapC7iE3dwRCd_HRNcIIY4e7ZaprQLIEK7onShw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!the-westin-palace-madrid/cp3]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/3Z66dM1EJ6aYpNtuwAEiTssm63CB01LSfFQ0u2l1ZzN3tXbwkr4SnSUlP6D3d6N5iomHBXj-6gpWV02pUW173lam3YPYTGfuapC7iE3dwRCd_HRNcIIY4e7ZaprQLIEK7onShw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6954098,40.4153578,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Workcase</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/DxPF2sBwocazX-85rKJB5U-bpG84dpppyGqcmXR2n7RKRfMr2_mrYeMAKwEoNc_mbaxeFwu2AfxUn614oJ9QJwAkljykDzgiNZJQjM71LTQj4mCQiyxY0_cGDCVT23FawYhSDg" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!workcase/c3py]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/DxPF2sBwocazX-85rKJB5U-bpG84dpppyGqcmXR2n7RKRfMr2_mrYeMAKwEoNc_mbaxeFwu2AfxUn614oJ9QJwAkljykDzgiNZJQjM71LTQj4mCQiyxY0_cGDCVT23FawYhSDg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.7179358,40.4206787,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Zara Serrano 23</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/twiwbja_mZH3Zuu2VTjERNDRLE-SDyGQJ3mE6vMyM97ivIqPrD4nt1Lj6R_H1s7pk-OWbm_i8ETsa8nBP15FvqbFepwTbAYKdT-GM57i-GGh449AltEh0ycXGZM0uqUsILXuGw" height="200" width="auto" /><br><br>http://www.openhousemadrid.org/#!zara-serrano-23/cr5l]]></description>
+			
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/twiwbja_mZH3Zuu2VTjERNDRLE-SDyGQJ3mE6vMyM97ivIqPrD4nt1Lj6R_H1s7pk-OWbm_i8ETsa8nBP15FvqbFepwTbAYKdT-GM57i-GGh449AltEh0ycXGZM0uqUsILXuGw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.6878661,40.4263237,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

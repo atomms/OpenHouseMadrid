@@ -2,19 +2,13 @@ package com.example.miguel.openhousemadrid;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Filter;
 import android.widget.GridView;
 import android.widget.SearchView;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
