@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
+/**
+ * Created by MAngelN on 22/04/2016.
+ */
 public class Splash extends AppCompatActivity {
 
     @Override
@@ -20,7 +23,7 @@ public class Splash extends AppCompatActivity {
             @Override
             public void run() {
                 Intent intent = new Intent(Splash
-                        .this, MapsActivity.class);
+                        .this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }

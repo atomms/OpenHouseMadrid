@@ -14,6 +14,9 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 
+/**
+ * Created by MAngelN on 22/04/2016.
+ */
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;

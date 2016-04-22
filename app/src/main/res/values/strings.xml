@@ -1,6 +1,106 @@
 <resources>
     <string name="app_name">OpenHouseMadrid</string>
-    <string name="action_settings">Settings</string>
+    <string name="title_activity_actividad_detalle">ActividadDetalle</string>
     <string name="title_activity_splash">OpenHouse</string>
     <string name="title_activity_maps">Map</string>
+
+
+    <string-array name="nombreEdificios">
+        <item>Palacio de cristal</item>
+        <item>Centro de arte</item>
+        <item>Palacio Real</item>
+        <item>Edificio Cristalia</item>
+        <item>Torre del Mar</item>
+        <item>Plaza Mayor</item>
+    </string-array>
+
+    <string-array name="descripcionEdif">
+        <item>"El edificio se comienza a construir en 1948 por la Compañía Inmobiliaria Metropolitana (propiedad de los Otamendi), en el solar que forma el chaflán de la plaza de España con la calle Princesa. Fue finalizado en el 1953 en estilo neobarroco, siendo obra del ingeniero José María Otamendi (que calculó la estructura de hormigón) y el arquitecto Julián Otamendi (diseño de planos y de la portada barroca de su fachada principal). Presenta una silueta escalonada en cuatro alturas"</item>
+        <item>"El edificio se comienza a construir en 1948 por la Compañía Inmobiliaria Metropolitana (propiedad de los Otamendi), en el solar que forma el chaflán de la plaza de España con la calle Princesa. Fue finalizado en el 1953 en estilo neobarroco, siendo obra del ingeniero José María Otamendi (que calculó la estructura de hormigón) y el arquitecto Julián Otamendi (diseño de planos y de la portada barroca de su fachada principal). Presenta una silueta escalonada en cuatro alturas"</item>
+        <item>"El edificio se comienza a construir en 1948 por la Compañía Inmobiliaria Metropolitana (propiedad de los Otamendi), en el solar que forma el chaflán de la plaza de España con la calle Princesa. Fue finalizado en el 1953 en estilo neobarroco, siendo obra del ingeniero José María Otamendi (que calculó la estructura de hormigón) y el arquitecto Julián Otamendi (diseño de planos y de la portada barroca de su fachada principal). Presenta una silueta escalonada en cuatro alturas"</item>
+        <item>"El edificio se comienza a construir en 1948 por la Compañía Inmobiliaria Metropolitana (propiedad de los Otamendi), en el solar que forma el chaflán de la plaza de España con la calle Princesa. Fue finalizado en el 1953 en estilo neobarroco, siendo obra del ingeniero José María Otamendi (que calculó la estructura de hormigón) y el arquitecto Julián Otamendi (diseño de planos y de la portada barroca de su fachada principal). Presenta una silueta escalonada en cuatro alturas"</item>
+        <item>"El edificio se comienza a construir en 1948 por la Compañía Inmobiliaria Metropolitana (propiedad de los Otamendi), en el solar que forma el chaflán de la plaza de España con la calle Princesa. Fue finalizado en el 1953 en estilo neobarroco, siendo obra del ingeniero José María Otamendi (que calculó la estructura de hormigón) y el arquitecto Julián Otamendi (diseño de planos y de la portada barroca de su fachada principal). Presenta una silueta escalonada en cuatro alturas"</item>
+        <item>"El edificio se comienza a construir en 1948 por la Compañía Inmobiliaria Metropolitana (propiedad de los Otamendi), en el solar que forma el chaflán de la plaza de España con la calle Princesa. Fue finalizado en el 1953 en estilo neobarroco, siendo obra del ingeniero José María Otamendi (que calculó la estructura de hormigón) y el arquitecto Julián Otamendi (diseño de planos y de la portada barroca de su fachada principal). Presenta una silueta escalonada en cuatro alturas"</item>
+    </string-array>
+
+
+    <string-array name="horarioEdificios">
+        <item>"Sa 09.00 – 14.00"</item>
+        <item>"Sa 09.00 – 18.00"</item>
+        <item>"Sa 09.00 – 19.00"</item>
+        <item>"Sa 11.00 – 18.00"</item>
+        <item>"Sa 09.00 – 18.00"</item>
+        <item>"Sa 10.00 – 14.00"</item>
+    </string-array>
+
+
+    <string-array name="direccionEdificios">
+        <item>"C/ Apolonio Morales, 29 28036 Madrid"</item>
+        <item>"C/ Apolonio Morales, 29 28036 Madrid"</item>
+        <item>"C/ Apolonio Morales, 29 28036 Madrid"</item>
+        <item>"C/ Apolonio Morales, 29 28036 Madrid"</item>
+        <item>"C/ Apolonio Morales, 29 28036 Madrid"</item>
+        <item>"C/ Apolonio Morales, 29 28036 Madrid"</item>
+    </string-array>
+
+
+    <string-array name="comollegarEdificios">
+        <item>"Metro - Pio XII (L9) Bus - 14, 16, 29, 150"</item>
+        <item>"Metro - Pio XII (L9) Bus - 14, 16, 29, 150"</item>
+        <item>"Metro - Pio XII (L9) Bus - 14, 16, 29, 150"</item>
+        <item>"Metro - Pio XII (L9) Bus - 14, 16, 29, 150"</item>
+        <item>"Metro - Pio XII (L9) Bus - 14, 16, 29, 150"</item>
+        <item>"Metro - Pio XII (L9) Bus - 14, 16, 29, 150"</item>
+    </string-array>
+
+
+    <string-array name="tipoEdificios">
+        <item>"Corporativo"</item>
+        <item>"Corporativo"</item>
+        <item>"oficinas"</item>
+        <item>"Corporativo"</item>
+        <item>"Dotacional"</item>
+        <item>"Corporativo"</item>
+    </string-array>
+
+
+    <string-array name="anoconstruccionEdificios">
+        <item>"1987"</item>
+        <item>"1899"</item>
+        <item>"1925"</item>
+        <item>"1965"</item>
+        <item>"2001"</item>
+        <item>"1988"</item>
+    </string-array>
+
+
+    <string-array name="minusEdificios">
+        <item>"Edificio Accesible"</item>
+        <item>"Edificio NO Accesible"</item>
+        <item>"Edificio NO Accesible"</item>
+        <item>"Edificio Accesible"</item>
+        <item>"Edificio NO Accesible"</item>
+        <item>"Edificio Accesible"</item>
+    </string-array>
+
+
+    <string-array name="inscripcionEdificios">
+        <item>"¡COMPLETA!"</item>
+        <item>"ABIERTA"</item>
+        <item>"¡COMPLETA!"</item>
+        <item>"¡COMPLETA!"</item>
+        <item>"ABIERTA"</item>
+        <item>"¡COMPLETA!"</item>
+    </string-array>
+
+    <!--- WEB EDIFICIOS -->
+
+    <string-array name="webEdificios">
+        <item>"www.webedificio.es"</item>
+        <item>"www.webedificio.es"</item>
+        <item>"www.webedificio.es"</item>
+        <item>"www.webedificio.es"</item>
+        <item>"www.webedificio.es"</item>
+        <item>"www.webedificio.es"</item>
+    </string-array>
 </resources>
