@@ -11,14 +11,11 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-/**
- * Created by MAngelN on 22/04/2016.
- */
 public class VistaGeneralEdificios extends Activity {
 
     GridView gv;
     SearchView sv;
-    ArrayList<Edificio>edificios;
+    ArrayList<Edificio> edificios;
     int[]images={R.drawable.edificio1,R.drawable.edificio2,R.drawable.edificio3,R.drawable.edificio4,R.drawable.edificio5,R.drawable.edificio1};
 
 
@@ -64,7 +61,7 @@ public class VistaGeneralEdificios extends Activity {
 
             @Override
             public boolean onQueryTextChange(String query) {
-                adapter.getFilter();
+                adapter.getFilter().filter(query);
                 return false;
             }
         });
@@ -80,11 +77,6 @@ public class VistaGeneralEdificios extends Activity {
                 Intent intent = new Intent(VistaGeneralEdificios.this, ActividadDetalle.class);
                 intent.putExtra("Objeto", item);
                 startActivity(intent);
-
-                Toast toast = Toast.makeText(getApplicationContext(), str + "  ", Toast.LENGTH_SHORT);
-                toast.show();
-
-
             }
         });
     }
