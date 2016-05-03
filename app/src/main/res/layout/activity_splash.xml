@@ -7,19 +7,14 @@
     android:fitsSystemWindows="true"
     tools:context="com.example.miguel.openhousemadrid.Splash">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true">
+    <ImageView
+        android:layout_width="281dp"
+        android:layout_height="415dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo_ohm"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/imageView"
-            android:layout_gravity="center_vertical"
-            android:src="@drawable/logo_ohm"
-            android:layout_margin="3dp" />
-    </LinearLayout>
 </RelativeLayout>

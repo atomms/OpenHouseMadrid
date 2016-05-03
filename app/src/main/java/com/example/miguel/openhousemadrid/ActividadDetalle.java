@@ -44,15 +44,14 @@ public class ActividadDetalle extends AppCompatActivity {
         inscrip.setText(edif.getInscrip());
         web.setText(edif.getWeb());
 
-        usarToolbar(edif.getNombre().toString());
+        //usarToolbar(edif.getNombre().toString());
 
     }
     private void usarToolbar(String str) {
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle(str);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        // toolbar.setTitle(str);
+        //setSupportActionBar(toolbar);
+        //getSupportActionBar().setDisplayShowHomeEnabled(true);
         //getSupportActionBar().setIcon(R.drawable.face);
     }
 
