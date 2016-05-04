@@ -1,24 +1,25 @@
 package com.example.miguel.openhousemadrid;
 
-import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ImageView;
 import android.widget.SearchView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class VistaGeneralEdificios extends Activity {
+public class VistaGeneralEdificiosFAV extends AppCompatActivity {
 
     GridView gv;
     SearchView sv;
     ArrayList<Edificio> edificios;
     int[]images={R.drawable.edificio1,R.drawable.edificio2,R.drawable.edificio3,R.drawable.edificio4,R.drawable.edificio5,R.drawable.edificio1};
-
+    String favSiNo;
+    SharedPreferences preferencias;
 
     String[]names;
     String [] descrip;
@@ -35,7 +36,7 @@ public class VistaGeneralEdificios extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vista_general_edificios);
+        setContentView(R.layout.activity_vista_general_edificios_fav);
         names=getResources().getStringArray(R.array.nombreEdificios);
         descrip = getResources().getStringArray(R.array.descripcionEdif);
         horarios = getResources().getStringArray(R.array.horarioEdificios);
@@ -47,26 +48,11 @@ public class VistaGeneralEdificios extends Activity {
         inscripcion = getResources().getStringArray(R.array.inscripcionEdificios);
         web = getResources().getStringArray(R.array.webEdificios);
 
-        gv= (GridView) findViewById(R.id.gridViewGeneral);
-        sv= (SearchView) findViewById(R.id.searchView1);
-
+        gv= (GridView) findViewById(R.id.gridViewGeneralFAV);
 
         //ADAPTADOR
         final Adapter adapter = new Adapter(this, this.getEdificios());
         gv.setAdapter(adapter);
-
-        sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                return false;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String query) {
-                adapter.getFilter().filter(query);
-                return false;
-            }
-        });
 
 
 
@@ -77,27 +63,30 @@ public class VistaGeneralEdificios extends Activity {
                 Edificio item = (Edificio) parent.getItemAtPosition(position);
                 String str = item.getNombre();
 
-                Intent intent = new Intent(VistaGeneralEdificios.this, ActividadDetalle.class);
+                Intent intent = new Intent(VistaGeneralEdificiosFAV.this, ActividadDetalle.class);
                 intent.putExtra("Objeto", item);
                 startActivity(intent);
-
             }
         });
     }
-
     private ArrayList <Edificio> getEdificios(){
         ArrayList<Edificio>edificios = new ArrayList<Edificio>();
         Edificio e;
-
         for (int i=0;i<names.length;i++){
+
             e=new Edificio(names[i], images[i],descrip[i],horarios[i], direccion[i],comoLlegar[i], tipoEdif[i],
                     anoConst[i], minus[i], inscripcion[i], web[i]);
-            edificios.add(e);
+            preferencias = getSharedPreferences("Favoritos", Context.MODE_PRIVATE);
+
+            String nome = names[i];
+            favSiNo = preferencias.getString(nome,"N");
+
+            if (favSiNo.equals("S")) {
+                edificios.add(e);
+            }
         }
         return edificios;
     }
-
-
 
 
 

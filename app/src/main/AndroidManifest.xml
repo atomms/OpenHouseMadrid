@@ -29,12 +29,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".VistaGeneralEdificios"
+        <activity
+            android:name=".VistaGeneralEdificios"
             android:parentActivityName=".MainActivity" />
-
-
-        <activity android:name=".ActividadDetalle"
+        <activity
+            android:name=".ActividadDetalle"
             android:parentActivityName=".VistaGeneralEdificios" />
 
         <!--
@@ -51,7 +50,11 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps"
+            android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".VistaGeneralEdificiosFAV"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

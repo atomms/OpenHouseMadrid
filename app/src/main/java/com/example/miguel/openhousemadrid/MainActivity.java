@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
     }
     //Abrir actividad de favoritos
     public void openFav(View view){
-
+        Intent intent = new Intent(this, VistaGeneralEdificiosFAV.class);
+        startActivity(intent);
     }
     //Abrir actividad de Info
     public void openInfo(View view){

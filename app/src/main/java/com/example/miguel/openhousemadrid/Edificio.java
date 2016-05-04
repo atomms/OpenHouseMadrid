@@ -18,7 +18,7 @@ public class Edificio implements Serializable {
     private String minus;
     private String inscrip;
     private String web;
-    private boolean fav;
+
 
     public Edificio(String nombre, int img, String descripción, String horario, String direccion,
                     String comoLlegar, String tipoEdif, String construccion, String minus,
@@ -35,6 +35,7 @@ public class Edificio implements Serializable {
         this.minus = minus;
         this.inscrip = inscrip;
         this.web = web;
+
     }
 
 
@@ -126,4 +127,6 @@ public class Edificio implements Serializable {
     public void setWeb(String web) {
         this.web = web;
     }
+
+
 }
