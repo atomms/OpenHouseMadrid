@@ -3,6 +3,7 @@ package com.example.miguel.openhousemadrid;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
+import com.firebase.client.Firebase;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -24,6 +25,26 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Esta linea de Firebase hay que añadirla antes de usar cualquier dato de firebase que queramos leer.
+        Firebase.setAndroidContext(this);
+
+        // Esta otra linea se utiliza para leer desde el archivo de firbase
+    /*    Firebase myFirebaseRef = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com/");
+
+
+        myFirebaseRef.child("message").addValueEventListener(new ValueEventListener() {
+
+            @Override
+            public void onDataChange(DataSnapshot snapshot) {
+                System.out.println(snapshot.getValue());  //prints "Do you have data? You'll love Firebase."
+            }
+
+            @Override public void onCancelled(FirebaseError error) { }
+
+        });*/
+
+
         setContentView(R.layout.activity_maps);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
