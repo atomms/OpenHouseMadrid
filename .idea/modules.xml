@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OpenHouseMadrid.iml" filepath="$PROJECT_DIR$/OpenHouseMadrid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OpenHouseMadridGit.iml" filepath="$PROJECT_DIR$/OpenHouseMadridGit.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
