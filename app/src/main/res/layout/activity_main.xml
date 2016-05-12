@@ -13,16 +13,24 @@
 
 
     <ImageView
-        android:layout_width="119dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageViewInfor"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_info_outline_black_24dp" />
+
+    <ImageView
+        android:layout_width="160dp"
         android:layout_height="161dp"
-        android:id="@+id/imageView"
+        android:id="@+id/imageViewLogo"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/openhouselogo1" />
 
     <GridLayout
 
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
 
         <ImageView
             android:layout_width="70dp"
@@ -80,13 +88,13 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="30dp">
 
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:id="@+id/imageViewInfo"
-            android:src="@drawable/info"
+            android:src="@drawable/news"
             android:textAlignment="center"
             android:layout_row="0"
             android:layout_column="0"
@@ -109,7 +117,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Info"
+            android:text="Noticias"
             android:id="@+id/maintextViewInfo"
             android:layout_row="1"
             android:layout_column="0"
@@ -138,7 +146,7 @@
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="fill_parent"
         android:layout_marginTop="50dp">
 
         <ImageView

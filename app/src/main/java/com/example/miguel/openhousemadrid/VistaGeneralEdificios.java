@@ -10,6 +10,11 @@ import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.Toast;
 
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
+
 import java.util.ArrayList;
 
 public class VistaGeneralEdificios extends Activity {
@@ -36,6 +41,10 @@ public class VistaGeneralEdificios extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vista_general_edificios);
+
+
+        descargarEdificios();
+
         names=getResources().getStringArray(R.array.nombreEdificios);
         descrip = getResources().getStringArray(R.array.descripcionEdif);
         horarios = getResources().getStringArray(R.array.horarioEdificios);
@@ -85,10 +94,14 @@ public class VistaGeneralEdificios extends Activity {
         });
     }
 
+    private void descargarEdificios() {
+        Firebase myFirebaseRef = new Firebase("https://glaring-torch-2531.firebaseio.com/Edificios");
+
+    }
+
     private ArrayList <Edificio> getEdificios(){
         ArrayList<Edificio>edificios = new ArrayList<Edificio>();
         Edificio e;
-
         for (int i=0;i<names.length;i++){
             e=new Edificio(names[i], images[i],descrip[i],horarios[i], direccion[i],comoLlegar[i], tipoEdif[i],
                     anoConst[i], minus[i], inscripcion[i], web[i]);

@@ -38,8 +38,6 @@ public class Edificio implements Serializable {
 
     }
 
-
-
     public String getNombre() {
         return nombre;
     }
