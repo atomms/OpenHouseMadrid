@@ -17,7 +17,7 @@
         android:layout_height="40dp"
         android:id="@+id/imageViewInfor"
         android:layout_gravity="right"
-        android:src="@drawable/ic_info_outline_black_24dp" />
+        android:src="@drawable/info" />
 
     <ImageView
         android:layout_width="160dp"
