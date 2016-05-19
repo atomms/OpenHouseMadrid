@@ -17,10 +17,11 @@ public class VistaGeneralEdificiosFAV extends AppCompatActivity {
     GridView gv;
     SearchView sv;
     ArrayList<Edificio> edificios;
-    int[]images={R.drawable.edificio1,R.drawable.edificio2,R.drawable.edificio3,R.drawable.edificio4,R.drawable.edificio5,R.drawable.edificio1};
     String favSiNo;
     SharedPreferences preferencias;
 
+    int[]id;
+    String[]images;
     String[]names;
     String [] descrip;
     String [] horarios;
@@ -51,8 +52,8 @@ public class VistaGeneralEdificiosFAV extends AppCompatActivity {
         gv= (GridView) findViewById(R.id.gridViewGeneralFAV);
 
         //ADAPTADOR
-        final Adapter adapter = new Adapter(this, this.getEdificios());
-        gv.setAdapter(adapter);
+        /*final Adapter adapter = new Adapter(this, this.getEdificios());
+        gv.setAdapter(adapter);*/
 
 
 
@@ -69,12 +70,12 @@ public class VistaGeneralEdificiosFAV extends AppCompatActivity {
             }
         });
     }
-    private ArrayList <Edificio> getEdificios(){
+    /*private ArrayList <Edificio> getEdificios(){
         ArrayList<Edificio>edificios = new ArrayList<Edificio>();
         Edificio e;
         for (int i=0;i<names.length;i++){
 
-            e=new Edificio(names[i], images[i],descrip[i],horarios[i], direccion[i],comoLlegar[i], tipoEdif[i],
+            e=new Edificio(id[i], names[i], images[i],descrip[i],horarios[i], direccion[i],comoLlegar[i], tipoEdif[i],
                     anoConst[i], minus[i], inscripcion[i], web[i]);
             preferencias = getSharedPreferences("Favoritos", Context.MODE_PRIVATE);
 
@@ -86,7 +87,7 @@ public class VistaGeneralEdificiosFAV extends AppCompatActivity {
             }
         }
         return edificios;
-    }
+    }*/
 
 
 

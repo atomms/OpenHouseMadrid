@@ -1,6 +1,7 @@
 package com.example.miguel.openhousemadrid;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,9 @@ import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 
 /**
@@ -22,7 +26,7 @@ public class Adapter extends BaseAdapter implements Filterable{
     ArrayList<Edificio>filterList;
     CustomFilter filter;
 
-    public Adapter(Context ctx, ArrayList<Edificio> edificios) {
+    public Adapter(Context ctx, ArrayList<Edificio>edificios) {
         this.c = ctx;
         this.edificios = edificios;
         this.filterList= edificios;
@@ -54,10 +58,8 @@ public class Adapter extends BaseAdapter implements Filterable{
         TextView nameTxt= (TextView) convertView.findViewById(R.id.nombre_edif);
         ImageView edifImg= (ImageView) convertView.findViewById(R.id.imagen_edif);
 
-        //SET DATA
+        //SET
         nameTxt.setText(edificios.get(pos).getNombre());
-        edifImg.setImageResource(edificios.get(pos).getImg());
-
         return convertView;
     }
 
@@ -85,18 +87,8 @@ public class Adapter extends BaseAdapter implements Filterable{
 
                 for (int i = 0; i<filterList.size();i++){
                     if(filterList.get(i).getNombre().toUpperCase().contains(constraint)){
-                        Edificio e=new Edificio(
-                                filterList.get(i).getNombre(),
-                                filterList.get(i).getImg(),
-                                filterList.get(i).getDescripción(),
-                                filterList.get(i).getHorario(),
-                                filterList.get(i).getDireccion(),
-                                filterList.get(i).getComoLlegar(),
-                                filterList.get(i).getTipoEdif(),
-                                filterList.get(i).getConstruccion(),
-                                filterList.get(i).getMinus(),
-                                filterList.get(i).getInscrip(),
-                                filterList.get(i).getWeb());
+                        Edificio e=new Edificio();
+                        e.setNombre(filterList.get(i).getNombre());
                         filters.add(e);
                     }
 

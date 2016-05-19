@@ -46,16 +46,15 @@ public class ActividadDetalle extends AppCompatActivity {
         //Importacion del objeto edificio que hemos pulsado
         edif = (Edificio)getIntent().getExtras().getSerializable("Objeto");
 
-        img.setImageResource(edif.getImg());
+        //img.setImageResource(edif.getImg());
         titulo.setText(edif.getNombre());
-        descripcion.setText(edif.getDescripción());
+        descripcion.setText(edif.getDescripcion());
         horario.setText(edif.getHorario());
         direccion.setText(edif.getDireccion());
-        comoLlegar.setText(edif.getComoLlegar());
-        tipoEdif.setText(edif.getTipoEdif());
+        comoLlegar.setText(edif.getComollegar());
+        tipoEdif.setText(edif.getTipoedif());
         construccion.setText(edif.getConstruccion());
         minus.setText(edif.getMinus());
-        inscrip.setText(edif.getInscrip());
         web.setText(edif.getWeb());
 
         cambiarBotonFavorito();

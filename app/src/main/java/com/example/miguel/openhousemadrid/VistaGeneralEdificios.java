@@ -3,6 +3,7 @@ package com.example.miguel.openhousemadrid;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
@@ -17,24 +18,14 @@ import com.firebase.client.ValueEventListener;
 
 import java.util.ArrayList;
 
+/**
+ * Created by Santos on 22/04/2016.
+ */
 public class VistaGeneralEdificios extends Activity {
 
     GridView gv;
     SearchView sv;
     ArrayList<Edificio> edificios;
-    int[]images={R.drawable.edificio1,R.drawable.edificio2,R.drawable.edificio3,R.drawable.edificio4,R.drawable.edificio5,R.drawable.edificio1};
-
-
-    String[]names;
-    String [] descrip;
-    String [] horarios;
-    String [] direccion;
-    String [] comoLlegar;
-    String [] tipoEdif;
-    String [] anoConst;
-    String [] minus;
-    String [] inscripcion;
-    String [] web;
 
 
     @Override
@@ -43,25 +34,12 @@ public class VistaGeneralEdificios extends Activity {
         setContentView(R.layout.activity_vista_general_edificios);
 
 
-        descargarEdificios();
-
-        names=getResources().getStringArray(R.array.nombreEdificios);
-        descrip = getResources().getStringArray(R.array.descripcionEdif);
-        horarios = getResources().getStringArray(R.array.horarioEdificios);
-        direccion = getResources().getStringArray(R.array.direccionEdificios);
-        comoLlegar = getResources().getStringArray(R.array.comollegarEdificios);
-        tipoEdif = getResources().getStringArray(R.array.tipoEdificios);
-        anoConst = getResources().getStringArray(R.array.anoconstruccionEdificios);
-        minus = getResources().getStringArray(R.array.minusEdificios);
-        inscripcion = getResources().getStringArray(R.array.inscripcionEdificios);
-        web = getResources().getStringArray(R.array.webEdificios);
-
         gv= (GridView) findViewById(R.id.gridViewGeneral);
         sv= (SearchView) findViewById(R.id.searchView1);
 
 
         //ADAPTADOR
-        final Adapter adapter = new Adapter(this, this.getEdificios());
+        final Adapter adapter = new Adapter(this, this.descargarEdificios());
         gv.setAdapter(adapter);
 
         sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
@@ -84,8 +62,6 @@ public class VistaGeneralEdificios extends Activity {
 
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
                 Edificio item = (Edificio) parent.getItemAtPosition(position);
-                String str = item.getNombre();
-
                 Intent intent = new Intent(VistaGeneralEdificios.this, ActividadDetalle.class);
                 intent.putExtra("Objeto", item);
                 startActivity(intent);
@@ -94,21 +70,48 @@ public class VistaGeneralEdificios extends Activity {
         });
     }
 
-    private void descargarEdificios() {
-        Firebase myFirebaseRef = new Firebase("https://glaring-torch-2531.firebaseio.com/Edificios");
+    private ArrayList <Edificio> descargarEdificios() {
 
+        Firebase ref = new Firebase("https://glaring-torch-2531.firebaseio.com/edificio");
+        final ArrayList<Edificio>edificios = new ArrayList<Edificio>();
+
+        ref.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot snapshot) {
+
+                for (DataSnapshot postSnapshot: snapshot.getChildren()) {
+                    Edificio post = postSnapshot.getValue(Edificio.class);
+                    edificios.add(post);
+                }
+            }
+            @Override
+            public void onCancelled(FirebaseError firebaseError) {
+                System.out.println("La base de datos no está disponible: " + firebaseError.getMessage());
+            }
+        });
+        return edificios;
     }
 
-    private ArrayList <Edificio> getEdificios(){
+
+
+
+
+
+
+
+
+
+
+    /*private ArrayList <Edificio> getEdificios(){
         ArrayList<Edificio>edificios = new ArrayList<Edificio>();
         Edificio e;
         for (int i=0;i<names.length;i++){
-            e=new Edificio(names[i], images[i],descrip[i],horarios[i], direccion[i],comoLlegar[i], tipoEdif[i],
+            e=new Edificio(id[i],names[i], images[i],descrip[i],horarios[i], direccion[i],comoLlegar[i], tipoEdif[i],
                     anoConst[i], minus[i], inscripcion[i], web[i]);
             edificios.add(e);
         }
         return edificios;
-    }
+    }*/
 
 
 
