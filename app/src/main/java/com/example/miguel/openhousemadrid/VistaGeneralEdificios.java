@@ -25,7 +25,7 @@ public class VistaGeneralEdificios extends Activity {
 
     GridView gv;
     SearchView sv;
-    ArrayList<Edificio> edificios;
+    ArrayList <Edificio> edificios;
 
 
     @Override
@@ -41,6 +41,7 @@ public class VistaGeneralEdificios extends Activity {
         //ADAPTADOR
         final Adapter adapter = new Adapter(this, this.descargarEdificios());
         gv.setAdapter(adapter);
+
 
         sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -65,7 +66,6 @@ public class VistaGeneralEdificios extends Activity {
                 Intent intent = new Intent(VistaGeneralEdificios.this, ActividadDetalle.class);
                 intent.putExtra("Objeto", item);
                 startActivity(intent);
-
             }
         });
     }
@@ -73,7 +73,7 @@ public class VistaGeneralEdificios extends Activity {
     private ArrayList <Edificio> descargarEdificios() {
 
         Firebase ref = new Firebase("https://glaring-torch-2531.firebaseio.com/edificio");
-        final ArrayList<Edificio>edificios = new ArrayList<Edificio>();
+        edificios = new ArrayList<Edificio>();
 
         ref.addValueEventListener(new ValueEventListener() {
             @Override

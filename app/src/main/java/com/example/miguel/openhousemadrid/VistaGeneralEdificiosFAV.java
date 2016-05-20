@@ -9,6 +9,14 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.SearchView;
+import android.widget.TextView;
+import android.widget.Toast;
+import android.widget.Toolbar;
+
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
 
 import java.util.ArrayList;
 
@@ -19,41 +27,19 @@ public class VistaGeneralEdificiosFAV extends AppCompatActivity {
     ArrayList<Edificio> edificios;
     String favSiNo;
     SharedPreferences preferencias;
-
-    int[]id;
-    String[]images;
-    String[]names;
-    String [] descrip;
-    String [] horarios;
-    String [] direccion;
-    String [] comoLlegar;
-    String [] tipoEdif;
-    String [] anoConst;
-    String [] minus;
-    String [] inscripcion;
-    String [] web;
-
+    TextView tvAvisoNoFav;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vista_general_edificios_fav);
-        names=getResources().getStringArray(R.array.nombreEdificios);
-        descrip = getResources().getStringArray(R.array.descripcionEdif);
-        horarios = getResources().getStringArray(R.array.horarioEdificios);
-        direccion = getResources().getStringArray(R.array.direccionEdificios);
-        comoLlegar = getResources().getStringArray(R.array.comollegarEdificios);
-        tipoEdif = getResources().getStringArray(R.array.tipoEdificios);
-        anoConst = getResources().getStringArray(R.array.anoconstruccionEdificios);
-        minus = getResources().getStringArray(R.array.minusEdificios);
-        inscripcion = getResources().getStringArray(R.array.inscripcionEdificios);
-        web = getResources().getStringArray(R.array.webEdificios);
 
         gv= (GridView) findViewById(R.id.gridViewGeneralFAV);
+        tvAvisoNoFav = (TextView) findViewById(R.id.textViewAvisoNoFav);
 
         //ADAPTADOR
-        /*final Adapter adapter = new Adapter(this, this.getEdificios());
-        gv.setAdapter(adapter);*/
+        final Adapter adapter = new Adapter(this, this.descargarEdificios());
+        gv.setAdapter(adapter);
 
 
 
@@ -62,33 +48,45 @@ public class VistaGeneralEdificiosFAV extends AppCompatActivity {
 
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
                 Edificio item = (Edificio) parent.getItemAtPosition(position);
-                String str = item.getNombre();
-
                 Intent intent = new Intent(VistaGeneralEdificiosFAV.this, ActividadDetalle.class);
                 intent.putExtra("Objeto", item);
                 startActivity(intent);
             }
         });
     }
-    /*private ArrayList <Edificio> getEdificios(){
-        ArrayList<Edificio>edificios = new ArrayList<Edificio>();
-        Edificio e;
-        for (int i=0;i<names.length;i++){
 
-            e=new Edificio(id[i], names[i], images[i],descrip[i],horarios[i], direccion[i],comoLlegar[i], tipoEdif[i],
-                    anoConst[i], minus[i], inscripcion[i], web[i]);
-            preferencias = getSharedPreferences("Favoritos", Context.MODE_PRIVATE);
+    private ArrayList <Edificio> descargarEdificios() {
 
-            String nome = names[i];
-            favSiNo = preferencias.getString(nome,"N");
+        Firebase ref = new Firebase("https://glaring-torch-2531.firebaseio.com/edificio");
+        edificios = new ArrayList<Edificio>();
 
-            if (favSiNo.equals("S")) {
-                edificios.add(e);
+        ref.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot snapshot) {
+
+                for (DataSnapshot postSnapshot: snapshot.getChildren()) {
+                    Edificio post = postSnapshot.getValue(Edificio.class);
+
+                    preferencias = getSharedPreferences("Favoritos", Context.MODE_PRIVATE);
+                    String nome = post.getNombre();
+                    favSiNo = preferencias.getString(nome,"N");
+                    if (favSiNo.equals("S")) {
+                        edificios.add(post);
+                    }
+                    if (edificios.isEmpty()){
+                        tvAvisoNoFav.setText("No tienes favoritos... Pero puedes añadirlos desde la pestaña de cada edificio!");
+                    }
+                    else{
+                        tvAvisoNoFav.setText("");
+                    }
+                }
             }
-        }
+            @Override
+            public void onCancelled(FirebaseError firebaseError) {
+                Toast toast1 = Toast.makeText(getApplicationContext(),"La Base de datos no está disponible. Revise su conexion a internet", Toast.LENGTH_SHORT);
+                toast1.show();
+            }
+        });
         return edificios;
-    }*/
-
-
-
+    }
 }

@@ -11,6 +11,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
+
 /**
  * Created by Santos on 22/04/2016.
  */
@@ -37,12 +39,9 @@ public class ActividadDetalle extends AppCompatActivity {
         TextView tipoEdif = (TextView) findViewById(R.id.textViewEdif);
         TextView construccion = (TextView) findViewById(R.id.textViewAnioConstr);
         TextView minus = (TextView) findViewById(R.id.textViewMinus);
-        TextView inscrip = (TextView) findViewById(R.id.textViewInscripcion);
         TextView web = (TextView) findViewById(R.id.textViewPaginaWeb);
 
         botonFav = (Button) findViewById(R.id.buttonFAV);
-
-
         //Importacion del objeto edificio que hemos pulsado
         edif = (Edificio)getIntent().getExtras().getSerializable("Objeto");
 
@@ -56,6 +55,9 @@ public class ActividadDetalle extends AppCompatActivity {
         construccion.setText(edif.getConstruccion());
         minus.setText(edif.getMinus());
         web.setText(edif.getWeb());
+        String rutaImagen = edif.getFotografia();
+        Picasso.with(getApplicationContext()).load(rutaImagen).into(img);
+
 
         cambiarBotonFavorito();
     }
