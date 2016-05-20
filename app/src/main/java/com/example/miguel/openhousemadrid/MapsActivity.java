@@ -2,17 +2,13 @@ package com.example.miguel.openhousemadrid;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.maps.android.kml.KmlLayer;
-
-import org.xmlpull.v1.XmlPullParserException;
-
-import java.io.IOException;
 
 /**
  * Created by MAngelN on 22/04/2016.
@@ -46,23 +42,29 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
+        // Add a marker in Madrid and move the camera
+        LatLng madrid = new LatLng(40.456438, -3.6591827);
+
         //Zoom del mapa al centro de Madrid
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(40.4222453,-3.7016385), 12));
 
 
-        // aqui establecemos los marcadores para cada edificio
+
+        //Añadimos la informacion del marcador personalizado.
+        mMap.addMarker(new MarkerOptions()
+        .position(madrid)
+         // Aqui es donde debemos recibir los datos de Firebase de cada edificio
+        .title("Madrid")
+        .snippet("De Madrid al cielo")
+        );
+
+        mMap.setInfoWindowAdapter(new UserInfoWindowAdapter(getLayoutInflater()));
+/*        // aqui establecemos los marcadores para cada edificio
         mMap.addMarker(new MarkerOptions()
                 .position(new LatLng(40.4767025, -3.671972))
                 .title("GFI INFORMATICA")
                 .snippet("un edificio lleno de informáticos")
-                );
-
-
-
-
-
-
-
+                );*/
 
         // Cargamos el archivo KML desde una ubicacion Local.(carpeta res/raw)
         //Para que funcione hay que añadir las dependencias "compile 'com.google.maps.android:android-maps-utils:0.4+'" en build.gradle

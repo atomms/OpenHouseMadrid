@@ -25,7 +25,7 @@ public class VistaGeneralEdificios extends Activity {
 
     GridView gv;
     SearchView sv;
-    ArrayList <Edificio> edificios;
+    ArrayList<Edificio> edificios;
 
 
     @Override
@@ -33,12 +33,18 @@ public class VistaGeneralEdificios extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vista_general_edificios);
 
+
         gv= (GridView) findViewById(R.id.gridViewGeneral);
         sv= (SearchView) findViewById(R.id.searchView1);
 
+
         //ADAPTADOR
+
         final Adapter adapter = new Adapter(this, this.descargarEdificios());
         gv.setAdapter(adapter);
+
+
+
 
 
         sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {

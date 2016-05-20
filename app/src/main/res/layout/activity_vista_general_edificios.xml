@@ -17,7 +17,8 @@
         android:layout_alignParentTop="true"
         android:queryHint="Buscar..."
         android:layout_alignRight="@+id/gridViewGeneral"
-        android:layout_alignEnd="@+id/gridViewGeneral" />
+        android:layout_alignEnd="@+id/gridViewGeneral"
+        android:iconifiedByDefault="true" />
 
     <GridView
         android:layout_width="wrap_content"
