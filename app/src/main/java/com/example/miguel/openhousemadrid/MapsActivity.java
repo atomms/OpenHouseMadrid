@@ -59,13 +59,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         );
 
         mMap.setInfoWindowAdapter(new UserInfoWindowAdapter(getLayoutInflater()));
-/*        // aqui establecemos los marcadores para cada edificio
-        mMap.addMarker(new MarkerOptions()
-                .position(new LatLng(40.4767025, -3.671972))
-                .title("GFI INFORMATICA")
-                .snippet("un edificio lleno de informáticos")
-                );*/
-
         // Cargamos el archivo KML desde una ubicacion Local.(carpeta res/raw)
         //Para que funcione hay que añadir las dependencias "compile 'com.google.maps.android:android-maps-utils:0.4+'" en build.gradle
       /*  try {
