@@ -3,13 +3,10 @@ package com.example.miguel.openhousemadrid;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ImageView;
 import android.widget.SearchView;
-import android.widget.Toast;
 
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
@@ -39,8 +36,12 @@ public class VistaGeneralEdificios extends Activity {
 
 
         //ADAPTADOR
+
         final Adapter adapter = new Adapter(this, this.descargarEdificios());
         gv.setAdapter(adapter);
+
+
+
 
         sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -68,12 +69,13 @@ public class VistaGeneralEdificios extends Activity {
 
             }
         });
+
     }
 
     private ArrayList <Edificio> descargarEdificios() {
 
         Firebase ref = new Firebase("https://glaring-torch-2531.firebaseio.com/edificio");
-        final ArrayList<Edificio>edificios = new ArrayList<Edificio>();
+        edificios = new ArrayList<Edificio>();
 
         ref.addValueEventListener(new ValueEventListener() {
             @Override
@@ -91,16 +93,6 @@ public class VistaGeneralEdificios extends Activity {
         });
         return edificios;
     }
-
-
-
-
-
-
-
-
-
-
 
     /*private ArrayList <Edificio> getEdificios(){
         ArrayList<Edificio>edificios = new ArrayList<Edificio>();
