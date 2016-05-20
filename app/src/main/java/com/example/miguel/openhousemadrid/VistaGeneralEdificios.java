@@ -32,11 +32,11 @@ public class VistaGeneralEdificios extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vista_general_edificios);
+        descargarEdificios();
 
 
         gv= (GridView) findViewById(R.id.gridViewGeneral);
         sv= (SearchView) findViewById(R.id.searchView1);
-
 
         //ADAPTADOR
         final Adapter adapter = new Adapter(this, this.descargarEdificios());
@@ -56,8 +56,6 @@ public class VistaGeneralEdificios extends Activity {
             }
         });
 
-
-
         gv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
 
@@ -68,6 +66,7 @@ public class VistaGeneralEdificios extends Activity {
                 startActivity(intent);
             }
         });
+
     }
 
     private ArrayList <Edificio> descargarEdificios() {
@@ -78,7 +77,6 @@ public class VistaGeneralEdificios extends Activity {
         ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot snapshot) {
-
                 for (DataSnapshot postSnapshot: snapshot.getChildren()) {
                     Edificio post = postSnapshot.getValue(Edificio.class);
                     edificios.add(post);
@@ -91,30 +89,4 @@ public class VistaGeneralEdificios extends Activity {
         });
         return edificios;
     }
-
-
-
-
-
-
-
-
-
-
-
-    /*private ArrayList <Edificio> getEdificios(){
-        ArrayList<Edificio>edificios = new ArrayList<Edificio>();
-        Edificio e;
-        for (int i=0;i<names.length;i++){
-            e=new Edificio(id[i],names[i], images[i],descrip[i],horarios[i], direccion[i],comoLlegar[i], tipoEdif[i],
-                    anoConst[i], minus[i], inscripcion[i], web[i]);
-            edificios.add(e);
-        }
-        return edificios;
-    }*/
-
-
-
-
-
 }
