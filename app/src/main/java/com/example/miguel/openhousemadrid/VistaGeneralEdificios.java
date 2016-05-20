@@ -32,8 +32,6 @@ public class VistaGeneralEdificios extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vista_general_edificios);
-        descargarEdificios();
-
 
         gv= (GridView) findViewById(R.id.gridViewGeneral);
         sv= (SearchView) findViewById(R.id.searchView1);
