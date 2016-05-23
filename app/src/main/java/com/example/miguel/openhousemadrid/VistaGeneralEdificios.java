@@ -2,6 +2,7 @@ package com.example.miguel.openhousemadrid;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -15,7 +16,9 @@ import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
+import com.squareup.picasso.Downloader;
 
+import java.net.URL;
 import java.util.ArrayList;
 
 /**
@@ -31,20 +34,15 @@ public class VistaGeneralEdificios extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vista_general_edificios);
 
+
+        setContentView(R.layout.activity_vista_general_edificios);
 
         gv= (GridView) findViewById(R.id.gridViewGeneral);
         sv= (SearchView) findViewById(R.id.searchView1);
 
-
-        //ADAPTADOR
-
         final Adapter adapter = new Adapter(this, this.descargarEdificios());
         gv.setAdapter(adapter);
-
-
-
 
 
         sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
@@ -64,6 +62,7 @@ public class VistaGeneralEdificios extends Activity {
             @Override
 
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+
                 Edificio item = (Edificio) parent.getItemAtPosition(position);
                 Intent intent = new Intent(VistaGeneralEdificios.this, ActividadDetalle.class);
                 intent.putExtra("Objeto", item);
@@ -73,7 +72,7 @@ public class VistaGeneralEdificios extends Activity {
 
     }
 
-    private ArrayList <Edificio> descargarEdificios() {
+    protected ArrayList <Edificio> descargarEdificios() {
 
         Firebase ref = new Firebase("https://glaring-torch-2531.firebaseio.com/edificio");
         edificios = new ArrayList<Edificio>();
@@ -85,12 +84,14 @@ public class VistaGeneralEdificios extends Activity {
                     Edificio post = postSnapshot.getValue(Edificio.class);
                     edificios.add(post);
                 }
+                Log.d("TAGDWLD", "Edificios descargados correctamente");
             }
             @Override
             public void onCancelled(FirebaseError firebaseError) {
-                System.out.println("La base de datos no está disponible: " + firebaseError.getMessage());
+                Log.d("TAGERR", "La base de datos no está disponible"+ firebaseError.getMessage());
             }
         });
         return edificios;
     }
 }
+

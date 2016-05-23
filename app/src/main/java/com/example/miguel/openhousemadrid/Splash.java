@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
+import com.firebase.client.Firebase;
+
 /**
  * Created by MAngelN on 22/04/2016.
  */
@@ -12,9 +14,12 @@ public class Splash extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         openApp(true);
+
+
     }
 
     private void openApp(boolean locationPermission) {

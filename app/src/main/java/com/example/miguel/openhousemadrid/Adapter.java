@@ -104,6 +104,14 @@ public class Adapter extends BaseAdapter implements Filterable{
                         Edificio e=new Edificio();
                         e.setNombre(filterList.get(i).getNombre());
                         e.setFotografia(filterList.get(i).getFotografia());
+                        e.setDescripcion(filterList.get(i).getDescripcion());
+                        e.setHorario(filterList.get(i).getHorario());
+                        e.setDireccion(filterList.get(i).getDireccion());
+                        e.setComollegar(filterList.get(i).getComollegar());
+                        e.setTipoedif(filterList.get(i).getTipoedif());
+                        e.setConstruccion(filterList.get(i).getConstruccion());
+                        e.setMinus(filterList.get(i).getMinus());
+                        e.setWeb(filterList.get(i).getWeb());
                         filters.add(e);
                     }
 

@@ -43,6 +43,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Madrid and move the camera
+
         LatLng madrid = new LatLng(40.456438, -3.6591827);
 
         //Zoom del mapa al centro de Madrid

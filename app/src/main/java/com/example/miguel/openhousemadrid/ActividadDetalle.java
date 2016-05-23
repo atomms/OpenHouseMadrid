@@ -40,12 +40,11 @@ public class ActividadDetalle extends AppCompatActivity {
         TextView construccion = (TextView) findViewById(R.id.textViewAnioConstr);
         TextView minus = (TextView) findViewById(R.id.textViewMinus);
         TextView web = (TextView) findViewById(R.id.textViewPaginaWeb);
-
         botonFav = (Button) findViewById(R.id.buttonFAV);
+
         //Importacion del objeto edificio que hemos pulsado
         edif = (Edificio)getIntent().getExtras().getSerializable("Objeto");
 
-        //img.setImageResource(edif.getImg());
         titulo.setText(edif.getNombre());
         descripcion.setText(edif.getDescripcion());
         horario.setText(edif.getHorario());
