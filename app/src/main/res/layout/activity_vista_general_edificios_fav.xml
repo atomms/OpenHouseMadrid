@@ -9,23 +9,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.miguel.openhousemadrid.MainActivity">
 
-    <SearchView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/searchView1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:queryHint="Buscar..."
-        android:layout_alignRight="@+id/gridViewGeneral"
-        android:layout_alignEnd="@+id/gridViewGeneral"
-        android:iconifiedByDefault="true" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewAvisoNoFav"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
 
     <GridView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:numColumns="auto_fit"
-        android:id="@+id/gridViewGeneral"
+        android:id="@+id/gridViewGeneralFAV"
         android:layout_below="@+id/searchView1"
         android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

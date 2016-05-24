@@ -3,16 +3,18 @@ package com.example.miguel.openhousemadrid;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.maps.android.kml.KmlLayer;
+import com.google.android.gms.maps.model.MarkerOptions;
 
-import org.xmlpull.v1.XmlPullParserException;
-
-import java.io.IOException;
+import java.util.ArrayList;
 
 /**
  * Created by MAngelN on 22/04/2016.
@@ -25,10 +27,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+
+        Firebase.setAndroidContext(this);
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
     }
 
 
@@ -44,25 +50,45 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        Firebase ref = new Firebase("https://openhousemadrid2016.firebaseio.com/edificio");
 
-      /*  // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));*/
+        Firebase.setAndroidContext(this);
 
+
+        VistaGeneralEdificios myVista = new VistaGeneralEdificios();
+        final ArrayList<Edificio> edificios = myVista.descargarEdificios();
+
+
+        ref.addValueEventListener(new ValueEventListener() {
+
+
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                for(DataSnapshot postSnapshot : dataSnapshot.getChildren()){
+                    Edificio edificio = postSnapshot.getValue(Edificio.class);
+                    LatLng marcador = new LatLng(Double.parseDouble(edificio.getLatitud()), Double.parseDouble(edificio.getLongitud()));
+                    String rutaImg = new String(edificio.getFotografia());
+
+                    //Añadimos la informacion del marcador personalizado
+                    mMap.addMarker(new MarkerOptions()
+                            // Aqui es donde debemos recibir los datos de Firebase de cada edificio
+                            .position(marcador)
+                            .title(edificio.getNombre())
+                            .snippet(edificio.getFotografia())
+                    );
+                    mMap.setInfoWindowAdapter(new UserInfoWindowAdapter(getApplicationContext(),getLayoutInflater()));
+                }
+            }
+
+            @Override
+            public void onCancelled(FirebaseError firebaseError) {
+
+            }
+        });
 
         //Zoom del mapa al centro de Madrid
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(40.4222453,-3.7016385), 12));
 
-        // Cargamos el archivo KML desde una ubicacion Local.(carpeta res/raw)
-        //Para que funcione hay que añadir las dependencias "compile 'com.google.maps.android:android-maps-utils:0.4+'" en build.gradle
-        try {
-            KmlLayer kmlLayer = new KmlLayer(mMap, R.raw.edificios, getApplicationContext());
-            kmlLayer.addLayerToMap();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (XmlPullParserException e) {
-            e.printStackTrace();
-        }
     }
 }

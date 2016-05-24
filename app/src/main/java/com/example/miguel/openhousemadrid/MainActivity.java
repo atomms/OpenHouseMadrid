@@ -8,6 +8,13 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
+
+import java.util.ArrayList;
+
 /**
  * Created by MAngelN on 22/04/2016.
  */
@@ -16,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Firebase.setAndroidContext(this);
         setContentView(R.layout.activity_main);
 
         Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/amatic.bold.ttf");
@@ -47,13 +55,11 @@ public class MainActivity extends AppCompatActivity {
     }
     //Abrir actividad de favoritos
     public void openFav(View view){
-
+        Intent intent = new Intent(this, VistaGeneralEdificiosFAV.class);
+        startActivity(intent);
     }
     //Abrir actividad de Info
     public void openInfo(View view){
 
     }
-
-
-
 }
