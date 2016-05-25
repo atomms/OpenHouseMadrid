@@ -26,11 +26,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Firebase.setAndroidContext(this);
         setContentView(R.layout.activity_main);
+
         //Descargo los edificios al abrir la app
         VistaGeneralEdificios mivista = new VistaGeneralEdificios();
         mivista.descargarEdificios();
 
         Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/amatic.bold.ttf");
+
 
         ImageView imgMap = (ImageView) findViewById(R.id.imageViewMap);
         ImageView imgEdif = (ImageView) findViewById(R.id.imageViewEdif);

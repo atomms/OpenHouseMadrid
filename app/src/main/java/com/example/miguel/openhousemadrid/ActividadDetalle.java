@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.squareup.picasso.Picasso;
+import com.bumptech.glide.Glide;
 
 /**
  * Created by Santos on 22/04/2016.
@@ -55,7 +55,7 @@ public class ActividadDetalle extends AppCompatActivity {
         minus.setText(edif.getMinus());
         web.setText(edif.getWeb());
         String rutaImagen = edif.getFotografia();
-        Picasso.with(getApplicationContext()).load(rutaImagen).into(img);
+        Glide.with(getApplicationContext()).load(rutaImagen).into(img);
 
 
         cambiarBotonFavorito();

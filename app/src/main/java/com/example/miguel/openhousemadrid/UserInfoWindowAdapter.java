@@ -1,20 +1,34 @@
 package com.example.miguel.openhousemadrid;
 
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.drawable.GlideDrawable;
+import com.bumptech.glide.request.RequestListener;
+import com.bumptech.glide.request.target.Target;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.Marker;
+
+import java.util.concurrent.ExecutionException;
+
 
 /**
  * Created by Miguel on 19/05/2016.
  */
 public class UserInfoWindowAdapter implements GoogleMap.InfoWindowAdapter{
     LayoutInflater inflater= null;
+    Context c;
 
-    UserInfoWindowAdapter(LayoutInflater inflater){
-        this.inflater=inflater;
+
+    UserInfoWindowAdapter(Context ctx, LayoutInflater inflater) {
+        this.inflater = inflater;
+        this.c = ctx;
     }
 
     @Override
@@ -23,16 +37,31 @@ public class UserInfoWindowAdapter implements GoogleMap.InfoWindowAdapter{
     }
 
     @Override
-    public View getInfoContents(Marker marker) {
+    public View getInfoContents(final Marker marker) {
 
         View infoWindows = inflater.inflate(R.layout.user_info_windows, null);
-
+        String imagen = marker.getSnippet();
+        ImageView img = (ImageView)infoWindows.findViewById(R.id.imagenEdificio);
         TextView title= (TextView)infoWindows.findViewById(R.id.title);
-        TextView description = (TextView)infoWindows.findViewById(R.id.snippet);
-
         title.setText(marker.getTitle());
-        description.setText(marker.getSnippet());
-        return(infoWindows);
+
+
+        Glide.with(this.c).load(imagen).asBitmap().listener(new RequestListener<String, Bitmap>() {
+            @Override
+            public boolean onException(Exception e, String model, Target<Bitmap> target, boolean isFirstResource) {
+                e.printStackTrace();
+                return false;
+            }
+
+            @Override
+            public boolean onResourceReady(Bitmap resource, String model, Target<Bitmap> target, boolean isFromMemoryCache, boolean isFirstResource) {
+                if(!isFromMemoryCache) marker.showInfoWindow();
+                return false;
+            }
+        }).centerCrop().override(200,100).into(img);
+
+        return (infoWindows);
     }
+
 }
 

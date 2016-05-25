@@ -16,7 +16,7 @@ import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
-import com.squareup.picasso.Downloader;
+
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -74,7 +74,7 @@ public class VistaGeneralEdificios extends Activity {
 
     protected ArrayList <Edificio> descargarEdificios() {
 
-        Firebase ref = new Firebase("https://glaring-torch-2531.firebaseio.com/edificio");
+        Firebase ref = new Firebase("https://openhousemadrid16.firebaseio.com/edificio");
         edificios = new ArrayList<Edificio>();
 
         ref.addValueEventListener(new ValueEventListener() {

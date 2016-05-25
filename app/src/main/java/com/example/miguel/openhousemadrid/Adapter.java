@@ -14,14 +14,8 @@ import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
+import com.bumptech.glide.Glide;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 
@@ -72,7 +66,7 @@ public class Adapter extends BaseAdapter implements Filterable{
         nameTxt.setText(edificios.get(pos).getNombre());
         //Establecemos la fotografia
         String rutaImagen = edificios.get(pos).getFotografia();
-        Picasso.with(this.c).load(rutaImagen).into(edifImg);
+        Glide.with(this.c).load(rutaImagen).into(edifImg);
         //devolvemos la vista del GridView
         return convertView;
     }
