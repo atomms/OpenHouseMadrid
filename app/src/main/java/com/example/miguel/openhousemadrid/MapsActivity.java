@@ -10,7 +10,6 @@ import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
@@ -27,6 +26,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private GoogleMap mMap;
     ArrayList <Edificio> edificios;
     private LatLngBounds MADRID = new LatLngBounds(new LatLng(40.4222453,-3.7016385), new LatLng(40.4222453,-3.7016385));
+    VistaGeneralEdificios mivista = new VistaGeneralEdificios();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         descargarEdificios();
         SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
     }
 
     @Override
@@ -58,6 +60,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void ponerMarcadores(GoogleMap googleMap){
 
         mMap = googleMap;
+
 
         for (int i=0; i<edificios.size();i++){
             Double lat = Double.parseDouble(edificios.get(i).getLatitud());
@@ -94,4 +97,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         });
         return edificios;
     }
+
+
 }

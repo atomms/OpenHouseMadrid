@@ -6,13 +6,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.Marker;
-
-import java.util.concurrent.ExecutionException;
 
 
 /**
@@ -60,6 +59,5 @@ public class UserInfoWindowAdapter implements GoogleMap.InfoWindowAdapter{
 
         return (infoWindows);
     }
-
 }
 
