@@ -10,9 +10,11 @@ import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.util.ArrayList;
@@ -24,6 +26,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private GoogleMap mMap;
     ArrayList <Edificio> edificios;
+    private LatLngBounds MADRID = new LatLngBounds(new LatLng(40.4222453,-3.7016385), new LatLng(40.4222453,-3.7016385));
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,13 +34,28 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         setContentView(R.layout.activity_maps);
         Firebase.setAndroidContext(this);
         descargarEdificios();
-        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+        SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
+        ponerMarcadores(mMap);
+
+    }
+
+
+    @Override
     public void onMapReady(GoogleMap googleMap) {
+        mMap = googleMap;
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(MADRID.getCenter(), 12));
+        ponerMarcadores(googleMap);
+    }
+
+    public void ponerMarcadores(GoogleMap googleMap){
 
         Log.d("DESCARGA","METODO ONMAPREADY");
         mMap = googleMap;
@@ -57,12 +75,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             String nombre = edificios.get(i).getNombre();
             Log.d("DESCARGA",nombre);
 
-        mMap.setInfoWindowAdapter(new UserInfoWindowAdapter(getApplicationContext(),getLayoutInflater()));
-        mMap.addMarker(new MarkerOptions().position(marcador).title(nombre).snippet(rutaImg));
-        Log.d("MARCADOR","!!!!!!!!!!!!!!AÑADIDO MARCADOR!!!!!!!!!!!!!!!!");
+            mMap.setInfoWindowAdapter(new UserInfoWindowAdapter(getApplicationContext(),getLayoutInflater()));
+            mMap.addMarker(new MarkerOptions().position(marcador).title(nombre).snippet(rutaImg));
+            Log.d("MARCADOR","!!!!!!!!!!!!!!AÑADIDO MARCADOR!!!!!!!!!!!!!!!!");
         }
-
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(40.4222453,-3.7016385), 12));
 
     }
 
