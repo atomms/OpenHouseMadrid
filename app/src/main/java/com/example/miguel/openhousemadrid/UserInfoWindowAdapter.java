@@ -51,7 +51,8 @@ public class UserInfoWindowAdapter implements GoogleMap.InfoWindowAdapter{
             }
 
             @Override
-            public boolean onResourceReady(Bitmap resource, String model, Target<Bitmap> target, boolean isFromMemoryCache, boolean isFirstResource) {
+            public boolean onResourceReady(Bitmap resource, String model, Target<Bitmap> target,
+                                           boolean isFromMemoryCache, boolean isFirstResource) {
                 if(!isFromMemoryCache) marker.showInfoWindow();
                 return false;
             }

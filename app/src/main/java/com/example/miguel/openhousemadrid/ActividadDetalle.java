@@ -62,10 +62,7 @@ public class ActividadDetalle extends AppCompatActivity {
     }
 
     public void anadirFavorito(View view){
-
-
         nomEdific = edif.getNombre();
-
         SharedPreferences preferencias=getSharedPreferences("Favoritos", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor=preferencias.edit();
         favSiNo = preferencias.getString(nomEdific,"N");

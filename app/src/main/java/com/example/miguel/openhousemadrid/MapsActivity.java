@@ -57,27 +57,19 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     public void ponerMarcadores(GoogleMap googleMap){
 
-        Log.d("DESCARGA","METODO ONMAPREADY");
         mMap = googleMap;
 
         for (int i=0; i<edificios.size();i++){
-
-
             Double lat = Double.parseDouble(edificios.get(i).getLatitud());
             Double lon = Double.parseDouble(edificios.get(i).getLongitud());
-
             LatLng marcador = new LatLng(lat,lon);
-            Log.d("DESCARGA",lat.toString());
-            Log.d("DESCARGA",lon.toString());
 
             String rutaImg = edificios.get(i).getFotografia();
-            Log.d("DESCARGA",rutaImg);
             String nombre = edificios.get(i).getNombre();
-            Log.d("DESCARGA",nombre);
 
             mMap.setInfoWindowAdapter(new UserInfoWindowAdapter(getApplicationContext(),getLayoutInflater()));
             mMap.addMarker(new MarkerOptions().position(marcador).title(nombre).snippet(rutaImg));
-            Log.d("MARCADOR","!!!!!!!!!!!!!!AÑADIDO MARCADOR!!!!!!!!!!!!!!!!");
+
         }
 
     }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OpenHouseMadrid</string>
+    <string name="app_name">Open House Madrid 2016</string>
     <string name="title_activity_actividad_detalle">ActividadDetalle</string>
     <string name="title_activity_splash">OpenHouse</string>
     <string name="title_activity_maps">Map</string>

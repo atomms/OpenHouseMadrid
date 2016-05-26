@@ -13,28 +13,41 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout">
+        android:id="@+id/linearLayout"
+        android:layout_margin="10dp">
 
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Aplicación desarrollada por:"
-            android:id="@+id/textView2" />
+            android:id="@+id/textView2"
+            android:textAlignment="center"
+            android:textColor="#000000" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Santos García Sanchez"
-            android:id="@+id/textView3" />
+            android:id="@+id/textView3"
+            android:textAlignment="center" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Miguel Angel Nuñez"
-            android:id="@+id/textView4" />
+            android:id="@+id/textView4"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Universidad Europea de Madrid"
+            android:id="@+id/textView10"
+            android:textAlignment="center" />
 
     </LinearLayout>
 
@@ -50,12 +63,6 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView15"
-                android:src="@drawable/subven" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -75,6 +82,12 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView13"
                 android:src="@drawable/organiza" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView15"
+                android:src="@drawable/subven" />
 
         </LinearLayout>
     </ScrollView>
