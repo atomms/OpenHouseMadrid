@@ -17,7 +17,7 @@ import com.firebase.client.ValueEventListener;
 import java.util.ArrayList;
 
 /**
- * Created by MAngelN on 22/04/2016.
+ * Created by MAngelN/Santos on 22/04/2016.
  */
 public class MainActivity extends AppCompatActivity {
 

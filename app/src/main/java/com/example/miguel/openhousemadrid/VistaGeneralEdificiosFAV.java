@@ -20,6 +20,11 @@ import com.firebase.client.ValueEventListener;
 
 import java.util.ArrayList;
 
+
+/**
+ * Created by Santos on 22/04/2016.
+ */
+
 public class VistaGeneralEdificiosFAV extends AppCompatActivity {
 
     GridView gv;
