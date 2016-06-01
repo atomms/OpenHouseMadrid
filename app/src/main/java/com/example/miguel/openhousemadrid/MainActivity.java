@@ -23,12 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Firebase.setAndroidContext(this);
         setContentView(R.layout.activity_main);
 
-        //Descargo los edificios al abrir la app
-        VistaGeneralEdificios mivista = new VistaGeneralEdificios();
-        mivista.descargarEdificios();
-
         Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/amatic.bold.ttf");
-
 
         ImageView imgMap = (ImageView) findViewById(R.id.imageViewMap);
         ImageView imgEdif = (ImageView) findViewById(R.id.imageViewEdif);
@@ -94,5 +89,4 @@ public class MainActivity extends AppCompatActivity {
         intent = new Intent(intent.ACTION_VIEW, Uri.parse(link));
         startActivity(intent);
     }
-
 }

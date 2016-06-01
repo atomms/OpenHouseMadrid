@@ -18,8 +18,9 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         Firebase.setAndroidContext(getApplicationContext());
-        MapsActivity mimapa = new MapsActivity();
-        mimapa.descargarEdificios();
+        VistaGeneralEdificios mivista = new VistaGeneralEdificios();
+        mivista.descargarEdificios();
+
         openApp(true);
 
     }
@@ -32,7 +33,7 @@ public class Splash extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 3000);
+        }, 5000);
     }
 
 }

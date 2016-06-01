@@ -23,7 +23,6 @@ public class ActividadDetalle extends AppCompatActivity {
     Button botonFav;
     String favSiNo;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +42,6 @@ public class ActividadDetalle extends AppCompatActivity {
 
         //Importacion del objeto edificio que hemos pulsado
         edif = (Edificio)getIntent().getExtras().getSerializable("Objeto");
-
         titulo.setText(edif.getNombre());
         descripcion.setText(edif.getDescripcion());
         direccion.setText(edif.getDireccion());
