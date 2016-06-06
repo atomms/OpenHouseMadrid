@@ -56,7 +56,7 @@ public class UserInfoWindowAdapter implements GoogleMap.InfoWindowAdapter{
                 if(!isFromMemoryCache) marker.showInfoWindow();
                 return false;
             }
-        }).centerCrop().into(img);
+        }).centerCrop().override(200,100).into(img);
 
         return (infoWindows);
     }
