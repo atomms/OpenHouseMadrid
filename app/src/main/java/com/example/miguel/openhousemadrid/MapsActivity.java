@@ -95,8 +95,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             });
 
         }
-
-
         }
 
     public ArrayList <Edificio> descargarEdificios() {

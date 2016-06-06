@@ -17,7 +17,7 @@
         android:layout_height="40dp"
         android:id="@+id/imageViewInfor"
         android:layout_gravity="right"
-        android:src="@drawable/info"
+        android:src="@drawable/info2"
         android:onClick="openInfo" />
 
     <ImageView
@@ -107,7 +107,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:id="@+id/imageViewFav"
-            android:src="@drawable/favo"
+            android:src="@drawable/favherat"
             android:onClick="openFav"
             android:layout_row="0"
             android:layout_column="1"
