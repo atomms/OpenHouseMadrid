@@ -1,5 +1,6 @@
 package com.example.miguel.openhousemadrid;
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
@@ -39,6 +40,9 @@ public class Noticias extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_noticias);
+        Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/amatic.bold.ttf");
+        TextView not = (TextView) findViewById(R.id.textViewnoticias);
+        not.setTypeface(tf);
 
         t1 = (TextView) findViewById(R.id.textViewNoticia1);
         t2 = (TextView) findViewById(R.id.textViewNoticia2);
