@@ -15,7 +15,7 @@ import com.google.android.gms.maps.model.Marker;
 
 
 /**
- * Created by Miguel on 19/05/2016.
+ * Created by Santos García & Miguel Ángel Núñez on 19/05/2016.
  */
 public class UserInfoWindowAdapter implements GoogleMap.InfoWindowAdapter{
     LayoutInflater inflater= null;

@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.firebase.client.Firebase;
 
 /**
- * Created by MAngelN on 22/04/2016.
+ * Created by Santos García & Miguel Ángel Núñez on 22/04/2016.
  */
 public class Splash extends AppCompatActivity {
 

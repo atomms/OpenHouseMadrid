@@ -1,10 +1,6 @@
 package com.example.miguel.openhousemadrid;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.Drawable;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,7 +16,7 @@ import java.net.URL;
 import java.util.ArrayList;
 
 /**
- * Created by Santos on 12/04/2016.
+ * Created by Santos García & Miguel Ángel Núñez on 12/04/2016.
  */
 public class Adapter extends BaseAdapter implements Filterable{
 

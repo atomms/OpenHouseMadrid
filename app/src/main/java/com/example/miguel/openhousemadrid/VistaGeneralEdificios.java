@@ -2,27 +2,22 @@ package com.example.miguel.openhousemadrid;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ImageView;
 import android.widget.SearchView;
-import android.widget.Toast;
 
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
 
-
-import java.net.URL;
 import java.util.ArrayList;
 
 /**
- * Created by Santos on 22/04/2016.
+ * Created by Santos García & Miguel Ángel Núñez on 22/04/2016.
  */
 public class VistaGeneralEdificios extends Activity {
 

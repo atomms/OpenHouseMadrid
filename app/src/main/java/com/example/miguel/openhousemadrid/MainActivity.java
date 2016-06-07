@@ -13,7 +13,7 @@ import com.firebase.client.Firebase;
 
 
 /**
- * Created by MAngelN/Santos on 22/04/2016.
+ * Created by Santos García & Miguel Ángel Núñez on 22/04/2016.
  */
 public class MainActivity extends AppCompatActivity {
 
