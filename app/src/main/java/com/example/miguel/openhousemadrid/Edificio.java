@@ -7,60 +7,22 @@ import java.io.Serializable;
  */
 public class Edificio implements Serializable {
 
-    private String nombre;
-    private int img;
-    private String descripción;
-    private String horario;
-    private String direccion;
-    private String comoLlegar;
-    private String tipoEdif;
+    private int id;
+    private String activo;
+    private String comollegar;
     private String construccion;
+    private String descripcion;
+    private String direccion;
+    private String fotografia;
+    private String latitud;
+    private String longitud;
     private String minus;
-    private String inscrip;
+    private String nombre;
+    private String tipoedif;
     private String web;
-    private boolean fav;
+    private String horario;
 
-    public Edificio(String nombre, int img, String descripción, String horario, String direccion,
-                    String comoLlegar, String tipoEdif, String construccion, String minus,
-                    String inscrip, String web) {
-
-        this.nombre = nombre;
-        this.img = img;
-        this.descripción = descripción;
-        this.horario = horario;
-        this.direccion = direccion;
-        this.comoLlegar = comoLlegar;
-        this.tipoEdif = tipoEdif;
-        this.construccion = construccion;
-        this.minus = minus;
-        this.inscrip = inscrip;
-        this.web = web;
-    }
-
-
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public int getImg() {
-        return img;
-    }
-
-    public void setImg(int img) {
-        this.img = img;
-    }
-
-    public String getDescripción() {
-        return descripción;
-    }
-
-    public void setDescripción(String descripción) {
-        this.descripción = descripción;
+    public Edificio() {
     }
 
     public String getHorario() {
@@ -71,28 +33,28 @@ public class Edificio implements Serializable {
         this.horario = horario;
     }
 
-    public String getDireccion() {
-        return direccion;
+    public int getId() {
+        return id;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getComoLlegar() {
-        return comoLlegar;
+    public String getActivo() {
+        return activo;
     }
 
-    public void setComoLlegar(String comoLlegar) {
-        this.comoLlegar = comoLlegar;
+    public void setActivo(String activo) {
+        this.activo = activo;
     }
 
-    public String getTipoEdif() {
-        return tipoEdif;
+    public String getComollegar() {
+        return comollegar;
     }
 
-    public void setTipoEdif(String tipoEdif) {
-        this.tipoEdif = tipoEdif;
+    public void setComollegar(String comollegar) {
+        this.comollegar = comollegar;
     }
 
     public String getConstruccion() {
@@ -103,6 +65,46 @@ public class Edificio implements Serializable {
         this.construccion = construccion;
     }
 
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public String getFotografia() {
+        return fotografia;
+    }
+
+    public void setFotografia(String fotografia) {
+        this.fotografia = fotografia;
+    }
+
+    public String getLatitud() {
+        return latitud;
+    }
+
+    public void setLatitud(String latitud) {
+        this.latitud = latitud;
+    }
+
+    public String getLongitud() {
+        return longitud;
+    }
+
+    public void setLongitud(String longitud) {
+        this.longitud = longitud;
+    }
+
     public String getMinus() {
         return minus;
     }
@@ -111,12 +113,20 @@ public class Edificio implements Serializable {
         this.minus = minus;
     }
 
-    public String getInscrip() {
-        return inscrip;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setInscrip(String inscrip) {
-        this.inscrip = inscrip;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getTipoedif() {
+        return tipoedif;
+    }
+
+    public void setTipoedif(String tipoedif) {
+        this.tipoedif = tipoedif;
     }
 
     public String getWeb() {

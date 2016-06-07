@@ -13,16 +13,25 @@
 
 
     <ImageView
-        android:layout_width="119dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageViewInfor"
+        android:layout_gravity="right"
+        android:src="@drawable/info2"
+        android:onClick="openInfo" />
+
+    <ImageView
+        android:layout_width="160dp"
         android:layout_height="161dp"
-        android:id="@+id/imageView"
+        android:id="@+id/imageViewLogo"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/openhouselogo1" />
 
     <GridLayout
 
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
 
         <ImageView
             android:layout_width="70dp"
@@ -80,16 +89,17 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="30dp">
 
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:id="@+id/imageViewInfo"
-            android:src="@drawable/info"
+            android:id="@+id/imageNoticias"
+            android:src="@drawable/news"
             android:textAlignment="center"
             android:layout_row="0"
             android:layout_column="0"
+            android:onClick="openNoticias"
             android:layout_columnWeight="1"
             android:layout_gravity="center_horizontal" />
 
@@ -97,7 +107,8 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:id="@+id/imageViewFav"
-            android:src="@drawable/fav"
+            android:src="@drawable/favherat"
+            android:onClick="openFav"
             android:layout_row="0"
             android:layout_column="1"
             android:textAlignment="center"
@@ -108,7 +119,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Info"
+            android:text="Noticias"
+            android:onClick="openNoticias"
             android:id="@+id/maintextViewInfo"
             android:layout_row="1"
             android:layout_column="0"
@@ -124,6 +136,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Favoritos"
             android:id="@+id/maintextViewFav"
+            android:onClick="openFav"
             android:layout_row="1"
             android:layout_column="1"
             android:layout_columnWeight="1"
@@ -136,7 +149,7 @@
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="fill_parent"
         android:layout_marginTop="50dp">
 
         <ImageView
@@ -145,7 +158,8 @@
             android:id="@+id/imageView2"
             android:src="@drawable/twitter"
             android:layout_columnWeight="1"
-            android:layout_gravity="center_horizontal|bottom|right" />
+            android:layout_gravity="center_horizontal|bottom|right"
+            android:onClick="openTwitter"/>
 
         <ImageView
             android:layout_width="30dp"
@@ -153,7 +167,8 @@
             android:id="@+id/imageView3"
             android:layout_columnWeight="1"
             android:src="@drawable/insta"
-            android:layout_gravity="center_horizontal|bottom" />
+            android:layout_gravity="center_horizontal|bottom"
+            android:onClick="openInstagram"/>
 
         <ImageView
             android:layout_width="30dp"
@@ -161,7 +176,8 @@
             android:id="@+id/imageView4"
             android:src="@drawable/face"
             android:layout_columnWeight="1"
-            android:layout_gravity="center_horizontal|bottom|left" />
+            android:layout_gravity="center_horizontal|bottom|left"
+            android:onClick="openFacebook"/>
     </GridLayout>
 
 </LinearLayout>

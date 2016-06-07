@@ -11,14 +11,14 @@
         android:layout_gravity="center" />
 
     <ImageView
-        android:id="@+id/imagen_edif"
+        android:id="@+id/imagenEdificio"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:scaleType="centerCrop"
         />
 
     <TextView
-        android:id="@+id/nombre_edif"
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_gravity="bottom"

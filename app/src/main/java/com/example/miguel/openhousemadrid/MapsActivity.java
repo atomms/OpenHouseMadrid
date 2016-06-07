@@ -1,18 +1,25 @@
 package com.example.miguel.openhousemadrid;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.util.Log;
+import android.widget.Toast;
 
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.maps.android.kml.KmlLayer;
+import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 
-import org.xmlpull.v1.XmlPullParserException;
-
-import java.io.IOException;
+import java.util.ArrayList;
 
 /**
  * Created by MAngelN on 22/04/2016.
@@ -20,49 +27,96 @@ import java.io.IOException;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+    ArrayList <Edificio> edificios;
+    ArrayList <Edificio> marcadoresEdificios;
+    private LatLngBounds MADRID = new LatLngBounds(new LatLng(40.4222453,-3.7016385), new LatLng(40.4222453,-3.7016385));
+    VistaGeneralEdificios mivista = new VistaGeneralEdificios();
+    int i;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+        Firebase.setAndroidContext(this);
+        descargarEdificios();
+        SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
+        ponerMarcadores(mMap);
+
     }
 
 
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-
-      /*  // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));*/
-
-
-        //Zoom del mapa al centro de Madrid
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(40.4222453,-3.7016385), 12));
-
-        // Cargamos el archivo KML desde una ubicacion Local.(carpeta res/raw)
-        //Para que funcione hay que añadir las dependencias "compile 'com.google.maps.android:android-maps-utils:0.4+'" en build.gradle
-        try {
-            KmlLayer kmlLayer = new KmlLayer(mMap, R.raw.edificios, getApplicationContext());
-            kmlLayer.addLayerToMap();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (XmlPullParserException e) {
-            e.printStackTrace();
-        }
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(MADRID.getCenter(), 12));
+        ponerMarcadores(googleMap);
     }
+
+
+    public void ponerMarcadores(GoogleMap googleMap){
+
+        mMap = googleMap;
+
+        for (i=0; i<edificios.size();i++){
+            Double lat = Double.parseDouble(edificios.get(i).getLatitud());
+            Double lon = Double.parseDouble(edificios.get(i).getLongitud());
+            LatLng marcador = new LatLng(lat,lon);
+            String rutaImg = edificios.get(i).getFotografia();
+            String nombre = edificios.get(i).getNombre();
+
+
+            mMap.setInfoWindowAdapter(new UserInfoWindowAdapter(getApplicationContext(),getLayoutInflater()));
+            mMap.addMarker(new MarkerOptions().position(marcador).title(nombre).snippet(rutaImg));
+
+
+            mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
+                @Override
+                public void onInfoWindowClick(Marker marker) {
+                    for (int x=0; x<edificios.size();x++){
+                        if (marker.getTitle().equals(edificios.get(x).getNombre())){
+                            Edificio item = edificios.get(x);
+                            Intent intent = new Intent(MapsActivity.this, ActividadDetalle.class);
+                            intent.putExtra("Objeto",item);
+                            startActivity(intent);
+                        }
+                    }
+
+
+                }
+            });
+
+        }
+        }
+
+    public ArrayList <Edificio> descargarEdificios() {
+
+        Firebase ref = new Firebase("https://openhousemadrid16.firebaseio.com/edificio");
+        edificios = new ArrayList<Edificio>();
+
+        ref.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot snapshot) {
+                for (DataSnapshot postSnapshot: snapshot.getChildren()) {
+                    Edificio post = postSnapshot.getValue(Edificio.class);
+                    edificios.add(post);
+                }
+            }
+            @Override
+            public void onCancelled(FirebaseError firebaseError) {
+                System.out.println("La base de datos no está disponible: " + firebaseError.getMessage());
+            }
+        });
+        return edificios;
+    }
+
+
 }
