@@ -16,7 +16,7 @@ import com.firebase.client.ValueEventListener;
 import java.util.ArrayList;
 
 /**
- * Created by Santos on 30/05/2016.
+ * Created by Santos García & Miguel Ángel Núñez on 30/05/2016.
  */
 
 public class Noticias extends AppCompatActivity {

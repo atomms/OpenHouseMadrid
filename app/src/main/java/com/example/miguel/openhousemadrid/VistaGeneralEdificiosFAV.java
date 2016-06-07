@@ -3,15 +3,14 @@ package com.example.miguel.openhousemadrid;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
@@ -22,7 +21,7 @@ import java.util.ArrayList;
 
 
 /**
- * Created by Santos on 22/04/2016.
+ * Created by Santos García & Miguel Ángel Núñez on 22/04/2016.
  */
 
 public class VistaGeneralEdificiosFAV extends AppCompatActivity {

@@ -3,8 +3,6 @@ package com.example.miguel.openhousemadrid;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import android.util.Log;
-import android.widget.Toast;
 
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
@@ -22,7 +20,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import java.util.ArrayList;
 
 /**
- * Created by MAngelN on 22/04/2016.
+ * Created by Santos García & Miguel Ángel Núñez on 22/04/2016.
  */
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
