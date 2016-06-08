@@ -61,7 +61,7 @@ public class VistaGeneralEdificiosFAV extends AppCompatActivity {
 
     private ArrayList <Edificio> descargarEdificios() {
 
-        Firebase ref = new Firebase("https://openhousemadrid16.firebaseio.com/edificio");
+        Firebase ref = new Firebase("https://openhousemadrid16.firebaseio.com/edificios");
         edificios = new ArrayList<Edificio>();
 
         ref.addValueEventListener(new ValueEventListener() {
