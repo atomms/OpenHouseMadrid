@@ -29,6 +29,7 @@ public class ActividadDetalle extends AppCompatActivity {
 
         //Declaracion de los elementos
         ImageView img = (ImageView)findViewById(R.id.imagen_extendida);
+        TextView horario = (TextView)findViewById(R.id.textViewHorario);
         TextView titulo = (TextView)findViewById(R.id.textViewNombre);
         TextView descripcion = (TextView)findViewById(R.id.textViewDescripcion);
         TextView direccion = (TextView) findViewById(R.id.textViewLugar);
@@ -43,6 +44,7 @@ public class ActividadDetalle extends AppCompatActivity {
         edif = (Edificio)getIntent().getExtras().getSerializable("Objeto");
         titulo.setText(edif.getNombre());
         descripcion.setText(edif.getDescripcion());
+        horario.setText(edif.getHorario());
         direccion.setText(edif.getDireccion());
         comoLlegar.setText(edif.getComollegar());
         tipoEdif.setText(edif.getTipoedif());
