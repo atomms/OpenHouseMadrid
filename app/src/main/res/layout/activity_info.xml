@@ -68,7 +68,7 @@
 
             <ImageView
                 android:layout_width="320dp"
-                android:layout_height="800dp"
+                android:layout_height="1000dp"
                 android:id="@+id/imageView15"
                 android:src="@drawable/subvennuevo"
                 android:layout_gravity="center_horizontal"
