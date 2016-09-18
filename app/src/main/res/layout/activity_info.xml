@@ -67,10 +67,13 @@
             android:gravity="center_vertical">
 
             <ImageView
-                android:layout_width="300dp"
+                android:layout_width="320dp"
                 android:layout_height="800dp"
                 android:id="@+id/imageView15"
-                android:src="@drawable/subvennuevo1" />
+                android:src="@drawable/subvennuevo"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp" />
 
         </LinearLayout>
     </ScrollView>
